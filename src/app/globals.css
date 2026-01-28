@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ====== LIGHT THEME (по умолчанию) ====== */
+:root {
+    --font-manrope: 'Manrope', sans-serif;
+
+    --background: #FFFFFF;
+    --card: #F5F5F5;
+    --text: #111111;
+    --heading: #000000;
+    --primary: #4F46E5;
+    --secondary: #0EA5E9;
+    --price: #CA8A04;
+    --success: #059669;
+    --border: #E5E7EB;
+}
+
+/* ====== DARK THEME ====== */
+.dark {
+    --background: #0F0F0F;
+    --card: #1A1A1A;
+    --text: #EAEAEA;
+    --heading: #FFFFFF;
+    --primary: #4F46E5;
+    --secondary: #22D3EE;
+    --price: #FACC15;
+    --success: #10B981;
+    --border: #2A2A2A;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: var(--font-manrope);
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
