@@ -3,7 +3,7 @@ type TType = "submit" | "reset" | "button";
 
 export interface IButtonUI {
     text: string;
-    onClick?: () => void;
+    onPress?: () => void;
     className?: string;
     type?: TType;
     size: TSize;

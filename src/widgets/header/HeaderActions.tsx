@@ -4,8 +4,6 @@ import { headerClasses } from "./header.styles";
 const HeaderUI = () => {
     return (
         <div className={headerClasses.header}>
-            {/* Главная страница магазина
-            <ButtonUI size="xl" text="Перейти в каталог" /> */}
             <div></div>
             <div className={headerClasses.headerContent}>
                 <div>

@@ -12,7 +12,7 @@ const sizeClasses = {
 
 const ButtonUI = ({
     text,
-    onClick,
+    onPress,
     className,
     size,
     width,
@@ -20,7 +20,7 @@ const ButtonUI = ({
 }: IButtonUI) => {
     const click = (e: React.MouseEvent<HTMLButtonElement>) => {
         // e.stopPropagation();
-        onClick?.();
+        onPress?.();
     };
     return (
         <Button
@@ -33,7 +33,7 @@ const ButtonUI = ({
                 ${sizeClasses[size]}
                 transition ${className ?? ""} `}
             color="primary"
-            onClick={click}
+            onPress={onPress}
         >
             {text}
         </Button>
