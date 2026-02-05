@@ -1,26 +1,28 @@
-const FlashSalesCard = () => {
+import { ISalesProducts } from "@/entities/product/api/types";
+
+const FlashSalesCard = ({ saleProduct }: { saleProduct: ISalesProducts }) => {
+    const { oldPrice, discountPrice, discountPercent, imageUrl, name } =
+        saleProduct;
     return (
         <div className="bg-white dark:bg-card-dark rounded-xl p-4 border border-gray-200 dark:border-border-dark group hover:border-primary/50 transition-all">
             <div className="relative aspect-square mb-4 overflow-hidden rounded-lg bg-gray-50 dark:bg-black/40">
                 <span className="absolute top-2 left-2 z-10 bg-red-500 text-white text-[10px] font-bold px-2 py-1 rounded">
-                    25% OFF
+                    {discountPercent}% OFF
                 </span>
 
                 <img
                     className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
-                    alt="Sleek black wireless headphones with metallic finish"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSJAfu0YwoavjbiMKsN04fTxnn3VpBHC2XuzwghE0JOZF4HTGmhxmOIyHmHcLYNlGKatBRxObSg8N0PfUx32n_8HGetSRBkJLiCkagdbLlHKOe6c6bt80fDacavcAgs61uQUl8xTUiviFtIQyDdqe9sZutWv_mVNsx6iUq70x3XVvg0-Ya0N8AyRkDcgC8jfniAgCof_ao1y2tIjDBgsO0HRFyRXl77o-l7nuHg9rCDnuhYn9J5eQvOqccccCLClt9JYHNZpg"
+                    alt="картинка товара"
+                    src={imageUrl}
                 />
             </div>
 
-            <h3 className="font-medium text-base mb-1 truncate">
-                Sonic Pro Wireless G2
-            </h3>
+            <h3 className="font-medium text-base mb-1 truncate">{name}</h3>
 
             <div className="flex items-baseline gap-2 mb-4">
-                <span className="text-primary font-bold">$299.00</span>
+                <span className="text-primary font-bold">${discountPrice}</span>
                 <span className="text-gray-500 text-sm line-through">
-                    $399.00
+                    ${oldPrice}
                 </span>
             </div>
 

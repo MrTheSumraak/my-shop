@@ -1,5 +1,57 @@
 [
     {
+        "id": "01",
+        "name": "Titan GPU X-100",
+        "price": 799,
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuC7Nw--5Ten2YrL7AVT8Sr6WSp2copjwTiCmisR6hZJVpzdRonSwaTbFZkCdZ9cf-yTJTjUSkrGV_dhA2GHe4RxArOxKPwyhCKXLkXVnBJucb--rYjjXkhBV8DWlyMlFihXGzbdvkeke-J6fZqOIF9pQXAEyZNUvFyyHd8acdhbgngt6vqZHJC1UPal8BafAyUnXkSvwHgKGEqBmxoKxKM2lQxkq62dKJfduuSgGecPUDZYU9Sr-RZnYm0XFwcpJeIFWNYuos4",
+        "description": "Modern desktop GPU with golden contacts",
+        "inStock": true,
+        "category": "components",
+        "rating": 4.7,
+        "count": 12,
+        "createdAt": "2024-01-01",
+        "updatedAt": "2024-01-01"
+    },
+    {
+        "id": "02",
+        "name": "Pro Book Platinum",
+        "price": 1599,
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBHVGqx80cpXCLasu1ESb8HOO2IK9SGPhKaYwiFsVgTEAbQWauMs6PYZXNGnpQDpZF2nGpsTapghrqrRvje67o2-Y9zA2bohzYiGLDwuhJv-Z5oChJyoHSbukx5RDFUWhM8stF0uQK9u8Ve1iFWq_6jqjQBn0lHsoYO6s_CypfDKVTqCPpvEfIPDkr8VkpgFIFbLXrtK95HLCT5Ihx34Eo4tAjJ5_1nRupGX8BNfzbOoMuL2MmPSIqIrcS6EpWzERyu4HG6OHM",
+        "description": "Ultrathin premium laptop with silver chassis",
+        "inStock": true,
+        "category": "laptops",
+        "rating": 4.8,
+        "count": 7,
+        "createdAt": "2024-01-02",
+        "updatedAt": "2024-01-02"
+    },
+    {
+        "id": "03",
+        "name": "Vision VR Elite",
+        "price": 549,
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAZanvuW4s-p3qLcZm1tB8L9ezHHM6wDRjN1J-Iaz9eF1SkhSiX7yYhDOujebp186AJHfI2d39-CRmd_3gHIvC3KG4wxyonyXLMRwJl22pOwvjiw8ub8Vn-N57XuwaKu1ySbH33NP_vNqnbDWkioGxUylk_74v9lr0Lkj7kXKGOuCmDHGmQRli4EnENdDv67rlx0Q7LSiOC1trh06usPUwc8D9P_JFyOD-cT8Cl_EOTwMDlx36hFXuLCEl_yP9pvBQT6JEFANc",
+        "description": "Minimalist VR headset with blue glow",
+        "inStock": true,
+        "category": "wearables",
+        "rating": 4.6,
+        "count": 15,
+        "createdAt": "2024-01-03",
+        "updatedAt": "2024-01-03"
+    },
+    {
+        "id": "04",
+        "name": "BoomBox Mini V3",
+        "price": 129,
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDpgY97Nt_tNndXRe6fzBz0sINhGO8VC1Ko4gvs35s38iNryDyroVaM6w_Ew5TOdh2tGCTldWr3k9G8XLBwkgq-xIkaPUwLiOR-UEJ8-0s-BJHfu4E7oDmkrYLpbWjmMLfowU3v8CxLZbAQWFESabzkk53LRQ6bmH8D5wwgwTP6B1hSTrbb19IWkQ_lOVPvDJ8-xa475pYikIwyBz57ESTCU_9OsrDTnac7OGjbM4zPByWWZJlpCwqtRapUL3r-9X3zu-n15P4",
+        "description": "Compact portable bluetooth speaker cylindrical",
+        "inStock": true,
+        "category": "audio",
+        "rating": 4.4,
+        "count": 22,
+        "createdAt": "2024-01-04",
+        "updatedAt": "2024-01-04"
+    },
+    {
         "id": "1",
         "name": "Huawei Mate Pro 15",
         "price": 1999.99,
