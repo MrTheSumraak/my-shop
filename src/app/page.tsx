@@ -1,15 +1,23 @@
+import UsegetProducts from "@/lib/useGetProducts";
 import { CategoriesWidget } from "@/widgets/categories";
+import CategoriesTabs from "@/widgets/categories-tabs/categoriesTabs";
+import FlashSales from "@/widgets/FlashSales/FlashSales";
 import HeaderUI from "@/widgets/header/HeaderActions";
+import HeroSection from "@/widgets/hero-section/heroSecrtion";
 import PopularProducts from "@/widgets/popular-products/PopularProducts";
 
 async function HomePage() {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products`);
-    const products = await res.json();
+    const products = await UsegetProducts("api/products");
+    const saleProducts = await UsegetProducts("api/saleProducts");
+
+    console.log(saleProducts);
     return (
         <>
             <HeaderUI />
-            <CategoriesWidget />
-            <PopularProducts products={products} />
+            <HeroSection />
+            <CategoriesTabs />
+            <FlashSales />
+            {/* <PopularProducts products={products} /> */}
         </>
     );
 }

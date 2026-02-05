@@ -1,4 +1,4 @@
-import { IProduct } from "@/entities/product/api/mockProduct/types";
+import { IProduct } from "@/entities/product/api/types";
 
 export interface IPopularProducts {
     products: IProduct[];

@@ -13,30 +13,29 @@ const PopularProductsClient = ({ products }: IPopularProducts) => {
     useEffect(() => {
         const el = sliderRef.current;
         if (!el) return;
+
+        const half = el.scrollWidth / 2;
+
         let animationFrameId: number;
         const scrollStep = () => {
             if (!el) return;
-            el.scrollLeft += 0.5; // авто-скорость
-
-            // бесконечный цикл
-            if (el.scrollLeft >= el.scrollWidth / 2) {
-                el.scrollLeft = 0;
+            el.scrollLeft += 0.5;
+            if (el.scrollLeft >= half) {
+                el.scrollLeft -= half;
             }
             animationFrameId = requestAnimationFrame(scrollStep);
         };
-        animationFrameId = requestAnimationFrame(scrollStep);
+        // animationFrameId = requestAnimationFrame(scrollStep);
         return () => cancelAnimationFrame(animationFrameId);
     }, []);
 
     const scrollRight = () => {
         const el = sliderRef.current;
         if (!el) return;
-
+        const half = el.scrollWidth / 2;
         el.scrollLeft += 300;
-
-        // если дошли до середины — переносим
-        if (el.scrollLeft >= el.scrollWidth / 2) {
-            el.scrollLeft = el.scrollLeft - el.scrollWidth / 2;
+        if (el.scrollLeft >= half) {
+            el.scrollLeft -= half;
         }
     };
 

@@ -13,3 +13,9 @@ export interface IProduct {
     createdAt: string;
     updatedAt: string;
 }
+
+export interface ISalesProducts extends IProduct {
+    oldPrice: number; // цена до скидки
+    discountPrice: number; // цена со скидкой (дублирует price, но можно оставить)
+    discountPercent: number; // скидка в процентах
+}

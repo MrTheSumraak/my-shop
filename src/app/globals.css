@@ -38,3 +38,19 @@ html, body {
     font-family: var(--font-manrope);
     transition: background-color 0.25s ease, color 0.25s ease;
 }
+
+.material-symbols-outlined {
+    font-variation-settings:
+        "FILL"0,
+        "wght"400,
+        "GRAD"0,
+        "opsz"24;
+}
+
+.glow-blue {
+    box-shadow: 0 0 15px rgba(0, 178, 255, 0.3);
+}
+
+.glow-green {
+    box-shadow: 0 0 15px rgba(0, 255, 157, 0.2);
+}
