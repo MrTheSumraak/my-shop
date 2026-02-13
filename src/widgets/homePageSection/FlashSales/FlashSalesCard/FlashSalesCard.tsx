@@ -1,10 +1,14 @@
 import { ISalesProducts } from "@/entities/product/api/types";
+import Link from "next/link";
 
 const FlashSalesCard = ({ saleProduct }: { saleProduct: ISalesProducts }) => {
     const { oldPrice, discountPrice, discountPercent, imageUrl, name } =
         saleProduct;
     return (
-        <div className="bg-white dark:bg-card-dark rounded-xl p-4 border border-gray-200 dark:border-border-dark group hover:border-primary/50 transition-all">
+        <Link
+            href={`/product/${saleProduct.id}`}
+            className="block bg-white dark:bg-card-dark rounded-xl p-4 border border-gray-200 dark:border-border-dark group hover:border-primary/50 transition-all"
+        >
             <div className="relative aspect-square mb-4 overflow-hidden rounded-lg bg-gray-50 dark:bg-black/40">
                 <span className="absolute top-2 left-2 z-10 bg-red-500 text-white text-[10px] font-bold px-2 py-1 rounded">
                     {discountPercent}% OFF
@@ -37,7 +41,7 @@ const FlashSalesCard = ({ saleProduct }: { saleProduct: ISalesProducts }) => {
             <button className="w-full py-2 bg-primary/10 text-primary border border-primary/20 hover:bg-primary hover:text-background-dark font-bold rounded-lg transition-all text-sm">
                 Add to Cart
             </button>
-        </div>
+        </Link>
     );
 };
 

@@ -1,0 +1,18 @@
+.glass-panel {
+    background: rgba(32, 62, 75, 0.4);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    height: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #0f1d23;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #203e4b;
+    border-radius: 10px;
+}

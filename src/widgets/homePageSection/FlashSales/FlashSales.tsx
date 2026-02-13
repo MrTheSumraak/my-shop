@@ -4,7 +4,7 @@ import { ISaleProducts } from "./FlashSalesCard/types";
 
 const FlashSales = ({ saeleProducts }: ISaleProducts) => {
     return (
-        <div className="max-w-[1440px] mx-auto px-4 lg:px-20 mb-16">
+        <section className="max-w-[1440px] mx-auto px-4 lg:px-20 mb-16">
             <div className="flex items-center justify-between mb-8">
                 <div className="flex items-center gap-4">
                     <h2 className="text-2xl font-bold">Flash Sales</h2>
@@ -30,7 +30,7 @@ const FlashSales = ({ saeleProducts }: ISaleProducts) => {
                     <FlashSalesCard key={product.id} saleProduct={product} />
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

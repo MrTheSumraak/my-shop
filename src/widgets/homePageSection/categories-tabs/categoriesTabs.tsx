@@ -7,7 +7,7 @@ import CategoriesTabsItem from "./categiriesTabsItem/categiriesTabsItem";
 
 const CategoriesTabs = () => {
     return (
-        <div className="max-w-[1440px] mx-auto px-4 lg:px-20 mb-12">
+        <section className="max-w-[1440px] mx-auto px-4 lg:px-20 mb-12">
             <div className="flex border-b border-gray-200 dark:border-border-dark overflow-x-auto no-scrollbar gap-10">
                 <CategoriesTabsItem
                     icon={
@@ -46,7 +46,7 @@ const CategoriesTabs = () => {
                     href={"#"}
                 />
             </div>
-        </div>
+        </section>
     );
 };
 

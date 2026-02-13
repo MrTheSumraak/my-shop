@@ -10,7 +10,17 @@
         "rating": 4.7,
         "count": 12,
         "createdAt": "2024-01-01",
-        "updatedAt": "2024-01-01"
+        "updatedAt": "2024-01-01",
+        "additionalInfo": {
+            "gallery": [
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuC7Nw--5Ten2YrL7AVT8Sr6WSp2copjwTiCmisR6hZJVpzdRonSwaTbFZkCdZ9cf-yTJTjUSkrGV_dhA2GHe4RxArOxKPwyhCKXLkXVnBJucb--rYjjXkhBV8DWlyMlFihXGzbdvkeke-J6fZqOIF9pQXAEyZNUvFyyHd8acdhbgngt6vqZHJC1UPal8BafAyUnXkSvwHgKGEqBmxoKxKM2lQxkq62dKJfduuSgGecPUDZYU9Sr-RZnYm0XFwcpJeIFWNYuos4",
+                "/gallery/gpu-x100-1.jpg",
+                "/gallery/gpu-x100-2.jpg"
+            ],
+            "colors": ["#000000", "#FFD700", "#2B2B2B"],
+            "series": "pro",
+            "reviewsCount": 214
+        }
     },
     {
         "id": "02",
@@ -23,7 +33,17 @@
         "rating": 4.8,
         "count": 7,
         "createdAt": "2024-01-02",
-        "updatedAt": "2024-01-02"
+        "updatedAt": "2024-01-02",
+        "additionalInfo": {
+            "gallery": [
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuBHVGqx80cpXCLasu1ESb8HOO2IK9SGPhKaYwiFsVgTEAbQWauMs6PYZXNGnpQDpZF2nGpsTapghrqrRvje67o2-Y9zA2bohzYiGLDwuhJv-Z5oChJyoHSbukx5RDFUWhM8stF0uQK9u8Ve1iFWq_6jqjQBn0lHsoYO6s_CypfDKVTqCPpvEfIPDkr8VkpgFIFbLXrtK95HLCT5Ihx34Eo4tAjJ5_1nRupGX8BNfzbOoMuL2MmPSIqIrcS6EpWzERyu4HG6OHM",
+                "/gallery/probook-1.jpg",
+                "/gallery/probook-2.jpg"
+            ],
+            "colors": ["#C0C0C0", "#000000", "#1A1A1A"],
+            "series": "premium",
+            "reviewsCount": 312
+        }
     },
     {
         "id": "03",
@@ -36,7 +56,17 @@
         "rating": 4.6,
         "count": 15,
         "createdAt": "2024-01-03",
-        "updatedAt": "2024-01-03"
+        "updatedAt": "2024-01-03",
+        "additionalInfo": {
+            "gallery": [
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuAZanvuW4s-p3qLcZm1tB8L9ezHHM6wDRjN1J-Iaz9eF1SkhSiX7yYhDOujebp186AJHfI2d39-CRmd_3gHIvC3KG4wxyonyXLMRwJl22pOwvjiw8ub8Vn-N57XuwaKu1ySbH33NP_vNqnbDWkioGxUylk_74v9lr0Lkj7kXKGOuCmDHGmQRli4EnENdDv67rlx0Q7LSiOC1trh06usPUwc8D9P_JFyOD-cT8Cl_EOTwMDlx36hFXuLCEl_yP9pvBQT6JEFANc",
+                "/gallery/vr-elite-1.jpg",
+                "/gallery/vr-elite-2.jpg"
+            ],
+            "colors": ["#1E90FF", "#000000", "#2B2B2B"],
+            "series": "pro",
+            "reviewsCount": 189
+        }
     },
     {
         "id": "04",
@@ -49,7 +79,17 @@
         "rating": 4.4,
         "count": 22,
         "createdAt": "2024-01-04",
-        "updatedAt": "2024-01-04"
+        "updatedAt": "2024-01-04",
+        "additionalInfo": {
+            "gallery": [
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuDpgY97Nt_tNndXRe6fzBz0sINhGO8VC1Ko4gvs35s38iNryDyroVaM6w_Ew5TOdh2tGCTldWr3k9G8XLBwkgq-xIkaPUwLiOR-UEJ8-0s-BJHfu4E7oDmkrYLpbWjmMLfowU3v8CxLZbAQWFESabzkk53LRQ6bmH8D5wwgwTP6B1hSTrbb19IWkQ_lOVPvDJ8-xa475pYikIwyBz57ESTCU_9OsrDTnac7OGjbM4zPByWWZJlpCwqtRapUL3r-9X3zu-n15P4",
+                "/gallery/boombox-1.jpg",
+                "/gallery/boombox-2.jpg"
+            ],
+            "colors": ["#000000", "#FF0000", "#1A1A1A"],
+            "series": "basic",
+            "reviewsCount": 142
+        }
     },
     {
         "id": "1",
@@ -62,7 +102,17 @@
         "rating": 4.5,
         "count": 10,
         "createdAt": "2023-08-01T10:00:00.000Z",
-        "updatedAt": "2023-08-01T10:00:00.000Z"
+        "updatedAt": "2023-08-01T10:00:00.000Z",
+        "additionalInfo": {
+            "gallery": [
+                "/HuaweiMate15Pro.png",
+                "/gallery/huawei-1.jpg",
+                "/gallery/huawei-2.jpg"
+            ],
+            "colors": ["#000000", "#C0C0C0", "#1A1A1A"],
+            "series": "premium",
+            "reviewsCount": 256
+        }
     },
     {
         "id": "2",
@@ -75,7 +125,17 @@
         "rating": 4.2,
         "count": 5,
         "createdAt": "2023-08-01T10:00:00.000Z",
-        "updatedAt": "2023-08-01T10:00:00.000Z"
+        "updatedAt": "2023-08-01T10:00:00.000Z",
+        "additionalInfo": {
+            "gallery": [
+                "/images/wireless-earbuds-x.jpg",
+                "/gallery/earbuds-1.jpg",
+                "/gallery/earbuds-2.jpg"
+            ],
+            "colors": ["#FFFFFF", "#000000"],
+            "series": "basic",
+            "reviewsCount": 87
+        }
     },
     {
         "id": "3",
@@ -88,7 +148,17 @@
         "rating": 4.8,
         "count": 8,
         "createdAt": "2023-08-01T10:00:00.000Z",
-        "updatedAt": "2023-08-01T10:00:00.000Z"
+        "updatedAt": "2023-08-01T10:00:00.000Z",
+        "additionalInfo": {
+            "gallery": [
+                "/images/smartphone-z.jpg",
+                "/gallery/smartphone-1.jpg",
+                "/gallery/smartphone-2.jpg"
+            ],
+            "colors": ["#000000", "#1E90FF", "#C0C0C0"],
+            "series": "pro",
+            "reviewsCount": 421
+        }
     },
     {
         "id": "4",
@@ -101,7 +171,17 @@
         "rating": 4.6,
         "count": 6,
         "createdAt": "2023-08-01T10:00:00.000Z",
-        "updatedAt": "2023-08-01T10:00:00.000Z"
+        "updatedAt": "2023-08-01T10:00:00.000Z",
+        "additionalInfo": {
+            "gallery": [
+                "/images/4k-ultra-hd-tv.jpg",
+                "/gallery/tv-1.jpg",
+                "/gallery/tv-2.jpg"
+            ],
+            "colors": ["#000000", "#2B2B2B"],
+            "series": "premium",
+            "reviewsCount": 198
+        }
     },
     {
         "id": "5",
@@ -114,7 +194,17 @@
         "rating": 4.3,
         "count": 12,
         "createdAt": "2023-08-01T10:00:00.000Z",
-        "updatedAt": "2023-08-01T10:00:00.000Z"
+        "updatedAt": "2023-08-01T10:00:00.000Z",
+        "additionalInfo": {
+            "gallery": [
+                "/images/smartwatch-y.jpg",
+                "/gallery/watch-1.jpg",
+                "/gallery/watch-2.jpg"
+            ],
+            "colors": ["#000000", "#FFFFFF", "#1A1A1A"],
+            "series": "basic",
+            "reviewsCount": 144
+        }
     },
     {
         "id": "6",
@@ -127,7 +217,17 @@
         "rating": 4.7,
         "count": 0,
         "createdAt": "2023-08-01T10:00:00.000Z",
-        "updatedAt": "2023-08-01T10:00:00.000Z"
+        "updatedAt": "2023-08-01T10:00:00.000Z",
+        "additionalInfo": {
+            "gallery": [
+                "/images/gaming-laptop-g.jpg",
+                "/gallery/gaming-laptop-1.jpg",
+                "/gallery/gaming-laptop-2.jpg"
+            ],
+            "colors": ["#000000", "#FF0000", "#2B2B2B"],
+            "series": "ultra",
+            "reviewsCount": 367
+        }
     },
     {
         "id": "7",
@@ -140,7 +240,17 @@
         "rating": 4.4,
         "count": 7,
         "createdAt": "2023-08-01T10:00:00.000Z",
-        "updatedAt": "2023-08-01T10:00:00.000Z"
+        "updatedAt": "2023-08-01T10:00:00.000Z",
+        "additionalInfo": {
+            "gallery": [
+                "/images/noise-cancelling-headphones-n.jpg",
+                "/gallery/headphones-1.jpg",
+                "/gallery/headphones-2.jpg"
+            ],
+            "colors": ["#000000", "#FFFFFF"],
+            "series": "pro",
+            "reviewsCount": 201
+        }
     },
     {
         "id": "8",
@@ -153,6 +263,16 @@
         "rating": 4.1,
         "count": 9,
         "createdAt": "2023-08-01T10:00:00.000Z",
-        "updatedAt": "2023-08-01T10:00:00.000Z"
+        "updatedAt": "2023-08-01T10:00:00.000Z",
+        "additionalInfo": {
+            "gallery": [
+                "/images/tablet-a.jpg",
+                "/gallery/tablet-1.jpg",
+                "/gallery/tablet-2.jpg"
+            ],
+            "colors": ["#000000", "#FFFFFF", "#2B2B2B"],
+            "series": "basic",
+            "reviewsCount": 133
+        }
     }
 ]

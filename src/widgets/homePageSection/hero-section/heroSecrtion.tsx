@@ -2,7 +2,7 @@ import ArrowIcon from "@/shared/ui/iconComponents/ArrowIcon";
 
 const HeroSection = () => {
     return (
-        <div className="max-w-[1440px] mx-auto px-4 lg:px-20 py-8">
+        <section className="max-w-[1440px] mx-auto px-4 lg:px-20 py-8">
             <div className="relative overflow-hidden rounded-2xl aspect-[21/9] min-h-[450px] flex flex-col justify-center px-8 lg:px-16">
                 <div className="absolute inset-0 z-0">
                     <div className="absolute inset-0 bg-gradient-to-r from-background-dark via-background-dark/60 to-transparent z-10"></div>
@@ -37,7 +37,7 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
