@@ -53,6 +53,7 @@ module.exports = {
             fontFamily: {
                 sans: ["Manrope", "sans - serif"],
             },
+            animation: { spinSlow: "spin 1.4s linear infinite" },
         },
     },
     plugins: [],

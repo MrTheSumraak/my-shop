@@ -25,7 +25,8 @@
             "@/widgets/*": ["./src/widgets/*"],
             "@/shared/*": ["./src/shared/*"],
             "@/pages/*": ["./src/pages/*"],
-            "@/app/*": ["./src/app/*"]
+            "@/app/*": ["./src/app/*"],
+            "@/store/*": ["./src/store/*"]
         }
     },
     "include": [
