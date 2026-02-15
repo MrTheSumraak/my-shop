@@ -1,16 +1,16 @@
-import UsegetProducts from "@/lib/useGetProducts";
+import apiRequest from "@/lib/apiRequest";
 import ProductPageDetails from "./product/[id]/page";
 import LayoutHomePage from "@/widgets/homePageSection/layout-home-page/layout";
 
 async function HomePage() {
-    const products = await UsegetProducts("api/popularProducts");
-    const saleProducts = await UsegetProducts("api/saleProducts");
+    // const products = await apiRequest("api/popularProducts");
+    // const saleProducts = await apiRequest("api/saleProducts");
 
-    console.log(saleProducts);
+    // console.log(saleProducts);
     return (
         <>
-            <LayoutHomePage saleProducts={saleProducts} products={products} />
-            {/* <ProductPageDetails /> */}
+            {/* <LayoutHomePage saleProducts={saleProducts} products={products} /> */}
+            <ProductPageDetails />
         </>
     );
 }

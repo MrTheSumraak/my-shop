@@ -1,8 +1,10 @@
 import NavBar from "@/widgets/productPageDetailsSection/navBar.tsx/navBar";
 import ProductInfo from "@/widgets/productPageDetailsSection/productInfo/productInfo";
 import "@/widgets/productPageDetailsSection/styles/productDetailsCSS.css";
-import { get } from "http";
 import Loading from "./loading";
+import TechnicalSpecifications from "@/widgets/productPageDetailsSection/technicalSpecifications/TechnicalSpecifications";
+import UserReviews from "@/widgets/productPageDetailsSection/userReviews/UserReviews";
+import apiRequest from "@/lib/apiRequest";
 
 interface ProductPageProps {
     params?: {
@@ -19,6 +21,8 @@ const ProductPageDetails = ({ params }: ProductPageProps) => {
             {/* <Loading /> */}
             <NavBar />
             <ProductInfo />
+            <TechnicalSpecifications />
+            <UserReviews />
         </section>
     );
 };

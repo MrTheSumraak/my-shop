@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "title": "Best Audio Quality",
+        "text": "The spatial awareness in FPS games is incredible. I can hear exactly where footsteps are coming from. Highly recommend.",
+        "name": "John D.",
+        "isverified": true,
+        "date": "2 days ago"
+    },
+    {
+        "id": "2",
+        "title": "Comfy for Long Sessions",
+        "text": "Super lightweight and the ear cups don't get hot. Battery life easily lasts my entire weekend gaming sessions.",
+        "name": "Sarah M.",
+        "isverified": true,
+        "date": "1 week ago"
+    },
+    {
+        "id": "3",
+        "title": "Mic clarity is insane",
+        "text": "My teammates noticed the difference immediately. It sounds like I'm using a studio microphone. Worth every penny.",
+        "name": "Alex K.",
+        "isverified": true,
+        "date": "2 weeks ago"
+    },
+    {
+        "id": "4",
+        "title": "Great Build Quality",
+        "text": "Solid construction, premium feel, and the headband is super comfortable. Easily the best headset I've owned.",
+        "name": "Michael R.",
+        "isverified": true,
+        "date": "3 weeks ago"
+    }
+]
