@@ -1,9 +1,14 @@
+"use client";
+
 import Stopwatch from "@/shared/ui/iconComponents/Stopwatch";
 import FlashSalesCard from "./FlashSalesCard/FlashSalesCard";
 import { ISaleProducts } from "./FlashSalesCard/types";
 import Loader from "@/shared/ui/loader/loader";
+import { useDispatch } from "@/store/rootReduser";
 
 const FlashSales = ({ saeleProducts, loading }: ISaleProducts) => {
+    const dispatch = useDispatch();
+    
     return (
         <section className="max-w-[1440px] mx-auto px-4 lg:px-20 mb-16">
             <div className="flex items-center justify-between mb-8">

@@ -1,6 +1,7 @@
 import BasketIcon from "@/shared/ui/iconComponents/BasketIcon";
 import LikeIcon from "@/shared/ui/iconComponents/LikeIcon";
 import SearchIcon from "@/shared/ui/iconComponents/SearchIcon";
+import Link from "next/link";
 
 const HeaderUI = () => {
     return (
@@ -8,11 +9,11 @@ const HeaderUI = () => {
             <div className="max-w-[1440px] mx-auto flex items-center justify-between gap-8">
                 <div className="flex items-center gap-12">
                     <div className="flex items-center gap-3">
-                        <div className="size-8 bg-primary rounded-lg flex items-center justify-center text-background-dark">
+                        <Link href="/" className="size-8 bg-primary rounded-lg flex items-center justify-center text-background-dark">
                             <span className="material-symbols-outlined font-bold">
                                 bolt
                             </span>
-                        </div>
+                        </Link>
                         <h2 className="text-xl font-bold tracking-tight">
                             TECHSTORE
                         </h2>
@@ -71,12 +72,12 @@ const HeaderUI = () => {
                             </span>
                         </button>
 
-                        <button className="p-2 hover:bg-gray-100 dark:hover:bg-card-dark rounded-lg transition-colors relative">
+                        <Link href="/basket" className="p-2 hover:bg-gray-100 dark:hover:bg-card-dark rounded-lg transition-colors relative">
                             <span className="material-symbols-outlined">
                                 <BasketIcon />
                             </span>
                             <span className="absolute top-1 right-1 size-2 bg-secondary rounded-full"></span>
-                        </button>
+                        </Link>
 
                         <div className="size-9 rounded-full bg-primary/20 border border-primary/30 flex items-center justify-center overflow-hidden">
                             <img

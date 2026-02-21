@@ -35,6 +35,6 @@
         "**/*.tsx",
         ".next/types/**/*.ts",
         ".next/dev/types/**/*.ts"
-    ],
+, "src/widgets/basketPage/productList"    ],
     "exclude": ["node_modules"]
 }

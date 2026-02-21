@@ -1,4 +1,6 @@
 import { ISalesProducts } from "@/entities/product/api/types";
+import { useDispatch } from "@/store/rootReduser";
+import { addProductToBasket } from "@/store/slices/basketSlices";
 import Link from "next/link";
 
 interface FlashSalesCardProps {
@@ -8,6 +10,11 @@ interface FlashSalesCardProps {
 const FlashSalesCard = ({ saleProduct }: FlashSalesCardProps) => {
     const { oldPrice, discountPrice, discountPercent, imageUrl, name } =
         saleProduct;
+    const dispatch = useDispatch();
+    const handleAddToCart = (e: React.MouseEvent<HTMLButtonElement>) => {
+        e.preventDefault();
+        dispatch(addProductToBasket(saleProduct));
+    };
     return (
         <Link
             href={`/product/${saleProduct.id}`}
@@ -42,7 +49,10 @@ const FlashSalesCard = ({ saleProduct }: FlashSalesCardProps) => {
                 12 Items Left
             </p>
 
-            <button className="w-full py-2 bg-primary/10 text-primary border border-primary/20 hover:bg-primary hover:text-background-dark font-bold rounded-lg transition-all text-sm">
+            <button
+                onClick={handleAddToCart}
+                className="w-full py-2 bg-primary/10 text-primary border border-primary/20 hover:bg-primary hover:text-background-dark font-bold rounded-lg transition-all text-sm"
+            >
                 Add to Cart
             </button>
         </Link>
