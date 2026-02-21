@@ -1,6 +1,6 @@
 [
     {
-        "id": "01",
+        "id": "sonic-pro-wireless-g2",
         "name": "Sonic Pro Wireless G2",
         "price": 299,
         "oldPrice": 399,
@@ -13,10 +13,59 @@
         "rating": 4.8,
         "count": 12,
         "createdAt": "2024-01-01",
-        "updatedAt": "2024-01-01"
+        "updatedAt": "2024-01-01",
+        "reviews": [
+            {
+                "id": "1",
+                "title": "Best Audio Quality",
+                "text": "The spatial awareness in FPS games is incredible. I can hear exactly where footsteps are coming from. Highly recommend.",
+                "name": "John D.",
+                "isverified": true,
+                "date": "2 days ago"
+            },
+            {
+                "id": "2",
+                "title": "Comfy for Long Sessions",
+                "text": "Super lightweight and the ear cups don't get hot. Battery life easily lasts my entire weekend gaming sessions.",
+                "name": "Sarah M.",
+                "isverified": true,
+                "date": "1 week ago"
+            },
+            {
+                "id": "3",
+                "title": "Mic clarity is insane",
+                "text": "My teammates noticed the difference immediately. It sounds like I'm using a studio microphone. Worth every penny.",
+                "name": "Alex K.",
+                "isverified": true,
+                "date": "2 weeks ago"
+            },
+            {
+                "id": "4",
+                "title": "Great Build Quality",
+                "text": "Solid construction, premium feel, and the headband is super comfortable. Easily the best headset I've owned.",
+                "name": "Michael R.",
+                "isverified": true,
+                "date": "3 weeks ago"
+            }
+        ],
+        "technicalSpecifications": {
+            "Driver Diameter": "50mm Neodymium",
+            "Frequency Response": "10Hz – 40kHz",
+            "Impedance": "32Ω ± 15%",
+            "Sensitivity": "108dB ± 3dB",
+            "Battery Life": "Up to 30 Hours",
+            "Charging Time": "2 Hours (USB‑C Fast Charge)",
+            "Wireless Technology": "2.4GHz Wireless + Bluetooth 5.2",
+            "Wireless Range": "Up to 15 meters",
+            "Weight": "320g",
+            "Microphone Type": "Detachable Noise‑Cancelling Boom Mic",
+            "Surround Sound": "Virtual 7.1 Spatial Audio",
+            "Materials": "Aluminum Frame + Memory Foam Cushions"
+        }
     },
+
     {
-        "id": "02",
+        "id": "galaxy-ultra-z-2024",
         "name": "Galaxy Ultra Z 2024",
         "price": 1099,
         "oldPrice": 1299,
@@ -29,10 +78,43 @@
         "rating": 4.9,
         "count": 5,
         "createdAt": "2024-01-02",
-        "updatedAt": "2024-01-02"
+        "updatedAt": "2024-01-02",
+        "reviews": [
+            {
+                "id": "1",
+                "title": "Camera is unreal",
+                "text": "The zoom is absolutely wild. Night mode looks like daylight.",
+                "name": "Liam P.",
+                "isverified": true,
+                "date": "5 days ago"
+            },
+            {
+                "id": "2",
+                "title": "Fast but hot",
+                "text": "Performance is top-tier, but it gets warm during long gaming sessions.",
+                "name": "Nora S.",
+                "isverified": false,
+                "date": "2 weeks ago"
+            }
+        ],
+        "technicalSpecifications": {
+            "Display": "6.9-inch Dynamic AMOLED 2X, 3200×1440, 120Hz",
+            "Processor": "Snapdragon X Elite Gen 2",
+            "RAM": "12GB LPDDR5X",
+            "Storage": "256GB UFS 4.0",
+            "Rear Cameras": "200MP + 50MP Ultra-Wide + 10MP Periscope",
+            "Front Camera": "32MP Autofocus",
+            "Battery": "5100mAh",
+            "Charging": "45W Wired, 25W Wireless",
+            "Connectivity": "5G, Wi‑Fi 7, Bluetooth 5.3, NFC",
+            "Water Resistance": "IP68",
+            "Materials": "Aluminum Armor Frame + Gorilla Glass Victus 3",
+            "Weight": "218g"
+        }
     },
+
     {
-        "id": "03",
+        "id": "clickmaster-x-carbon",
         "name": "ClickMaster X Carbon",
         "price": 89,
         "oldPrice": 149,
@@ -45,10 +127,51 @@
         "rating": 4.7,
         "count": 28,
         "createdAt": "2024-01-03",
-        "updatedAt": "2024-01-03"
+        "updatedAt": "2024-01-03",
+        "reviews": [
+            {
+                "id": "1",
+                "title": "Perfect for typing",
+                "text": "Switches feel amazing. The sound is satisfying but not too loud.",
+                "name": "Ethan V.",
+                "isverified": true,
+                "date": "3 days ago"
+            },
+            {
+                "id": "2",
+                "title": "RGB is 🔥",
+                "text": "Lighting effects are smooth and bright. Looks great on my desk.",
+                "name": "Mila R.",
+                "isverified": true,
+                "date": "1 week ago"
+            },
+            {
+                "id": "3",
+                "title": "A bit heavy",
+                "text": "Build quality is excellent, but it's heavier than expected.",
+                "name": "Oliver T.",
+                "isverified": false,
+                "date": "2 weeks ago"
+            }
+        ],
+        "technicalSpecifications": {
+            "Switch Type": "Hot‑swappable Mechanical (Red, Brown, Blue options)",
+            "Key Rollover": "NKRO with Anti‑Ghosting",
+            "Backlight": "Per‑Key RGB with 18 Effects",
+            "Frame Material": "Carbon Fiber + Aluminum Baseplate",
+            "Keycaps": "Double‑Shot PBT",
+            "Polling Rate": "1000Hz",
+            "Connectivity": "USB‑C Detachable Cable",
+            "Cable Type": "Braided Nylon 1.8m",
+            "Weight": "980g",
+            "Software Support": "Macro Editor + RGB Customization",
+            "Noise Dampening": "Integrated Silicone Pad",
+            "Lifespan": "50 Million Keystrokes"
+        }
     },
+
     {
-        "id": "04",
+        "id": "titan-watch-s3",
         "name": "Titan Watch S3",
         "price": 359,
         "oldPrice": 399,
@@ -61,74 +184,26 @@
         "rating": 4.6,
         "count": 45,
         "createdAt": "2024-01-04",
-        "updatedAt": "2024-01-04"
+        "updatedAt": "2024-01-04",
+        "reviews": [],
+        "technicalSpecifications": {
+            "Display": "1.9-inch Curved AMOLED, 420×502",
+            "Processor": "Titan S3 BioCore Chip",
+            "RAM": "2GB",
+            "Storage": "32GB Internal",
+            "Battery Life": "Up to 4 Days",
+            "Charging": "Magnetic Fast Charging (0–80% in 40 min)",
+            "Sensors": "Heart Rate, SpO2, ECG, Skin Temp, Accelerometer",
+            "Water Resistance": "5ATM",
+            "Connectivity": "Bluetooth 5.3, Wi‑Fi, NFC",
+            "GPS": "Dual‑Band L1+L5",
+            "Materials": "Stainless Steel + Sapphire Glass",
+            "Weight": "46g"
+        }
     },
+
     {
-        "id": "1",
-        "name": "Sonic Pro Wireless G2",
-        "price": 299,
-        "oldPrice": 399,
-        "discountPrice": 299,
-        "discountPercent": 25,
-        "imageUrl": "https://example.com/products/sonic-pro-g2.png",
-        "description": "Premium wireless headphones with deep bass and noise cancellation.",
-        "inStock": true,
-        "category": "audio",
-        "rating": 4.8,
-        "count": 12,
-        "createdAt": "2024-01-01",
-        "updatedAt": "2024-01-01"
-    },
-    {
-        "id": "2",
-        "name": "Galaxy Ultra Z 2024",
-        "price": 1099,
-        "oldPrice": 1299,
-        "discountPrice": 1099,
-        "discountPercent": 15,
-        "imageUrl": "https://example.com/products/galaxy-ultra-z.png",
-        "description": "Flagship smartphone with triple camera system and AMOLED display.",
-        "inStock": true,
-        "category": "smartphones",
-        "rating": 4.9,
-        "count": 5,
-        "createdAt": "2024-01-02",
-        "updatedAt": "2024-01-02"
-    },
-    {
-        "id": "3",
-        "name": "ClickMaster X Carbon",
-        "price": 89,
-        "oldPrice": 149,
-        "discountPrice": 89,
-        "discountPercent": 40,
-        "imageUrl": "https://example.com/products/clickmaster-carbon.png",
-        "description": "Mechanical keyboard with RGB lighting and carbon fiber frame.",
-        "inStock": true,
-        "category": "components",
-        "rating": 4.7,
-        "count": 28,
-        "createdAt": "2024-01-03",
-        "updatedAt": "2024-01-03"
-    },
-    {
-        "id": "4",
-        "name": "Titan Watch S3",
-        "price": 359,
-        "oldPrice": 399,
-        "discountPrice": 359,
-        "discountPercent": 10,
-        "imageUrl": "https://example.com/products/titan-s3.png",
-        "description": "Smartwatch with curved display and advanced health tracking.",
-        "inStock": true,
-        "category": "wearables",
-        "rating": 4.6,
-        "count": 45,
-        "createdAt": "2024-01-04",
-        "updatedAt": "2024-01-04"
-    },
-    {
-        "id": "5",
+        "id": "aerobook-x15",
         "name": "AeroBook X15",
         "price": 899,
         "oldPrice": 1199,
@@ -141,10 +216,34 @@
         "rating": 4.5,
         "count": 9,
         "createdAt": "2024-01-05",
-        "updatedAt": "2024-01-05"
+        "updatedAt": "2024-01-05",
+        "reviews": [
+            {
+                "id": "1",
+                "title": "Great for work",
+                "text": "Battery lasts the whole day. Perfect for travel.",
+                "name": "Daniel H.",
+                "isverified": true,
+                "date": "4 days ago"
+            }
+        ],
+        "technicalSpecifications": {
+            "Display": "15.6-inch IPS, 1920×1080, 144Hz",
+            "Processor": "Intel Core i7‑13700H",
+            "RAM": "16GB DDR5",
+            "Storage": "1TB NVMe SSD",
+            "GPU": "Intel Arc Integrated Graphics",
+            "Battery": "82Wh (Up to 12 Hours)",
+            "Charging": "100W USB‑C Fast Charging",
+            "Connectivity": "Wi‑Fi 6E, Bluetooth 5.3",
+            "Ports": "2× USB‑C, 2× USB‑A, HDMI 2.1, Audio Jack",
+            "Keyboard": "Backlit Scissor‑Switch",
+            "Weight": "1.65kg",
+            "Materials": "Aluminum Unibody"
+        }
     },
     {
-        "id": "6",
+        "id": "hypersound-bar-360",
         "name": "HyperSound Bar 360",
         "price": 149,
         "oldPrice": 249,
@@ -157,10 +256,43 @@
         "rating": 4.4,
         "count": 18,
         "createdAt": "2024-01-06",
-        "updatedAt": "2024-01-06"
+        "updatedAt": "2024-01-06",
+        "reviews": [
+            {
+                "id": "1",
+                "title": "Bass is crazy",
+                "text": "Shakes the whole room. Movies feel cinematic now.",
+                "name": "Kevin J.",
+                "isverified": true,
+                "date": "1 week ago"
+            },
+            {
+                "id": "2",
+                "title": "Good but loud",
+                "text": "Even at low volume it's powerful. Not ideal for apartments.",
+                "name": "Emma W.",
+                "isverified": false,
+                "date": "3 weeks ago"
+            }
+        ],
+        "technicalSpecifications": {
+            "Audio Channels": "3.1 Surround",
+            "Peak Power": "280W",
+            "Frequency Response": "40Hz – 20kHz",
+            "Wireless Subwoofer": "Included",
+            "Connectivity": "Bluetooth 5.1, HDMI ARC, Optical",
+            "Supported Codecs": "Dolby Digital, DTS Virtual:X",
+            "Drivers": "Dual Full‑Range + Dedicated Woofer",
+            "Controls": "Touch Panel + Remote",
+            "Dimensions": "920 × 90 × 70 mm",
+            "Weight": "3.2kg",
+            "Materials": "ABS + Metal Grill",
+            "Wall Mount": "Supported"
+        }
     },
+
     {
-        "id": "7",
+        "id": "rtx-5090",
         "name": "Quantum GPU RTX 5090",
         "price": 1499,
         "oldPrice": 1799,
@@ -173,10 +305,51 @@
         "rating": 4.9,
         "count": 0,
         "createdAt": "2024-01-07",
-        "updatedAt": "2024-01-07"
+        "updatedAt": "2024-01-07",
+        "reviews": [
+            {
+                "id": "1",
+                "title": "Monster performance",
+                "text": "Runs everything at 4K 120fps without breaking a sweat.",
+                "name": "Victor L.",
+                "isverified": true,
+                "date": "6 days ago"
+            },
+            {
+                "id": "2",
+                "title": "Too expensive",
+                "text": "Performance is insane, but the price is painful.",
+                "name": "Sofia A.",
+                "isverified": false,
+                "date": "2 weeks ago"
+            },
+            {
+                "id": "3",
+                "title": "Out of stock everywhere",
+                "text": "Tried to buy it for a month. Always sold out.",
+                "name": "Mark T.",
+                "isverified": true,
+                "date": "3 weeks ago"
+            }
+        ],
+        "technicalSpecifications": {
+            "Architecture": "Ada‑Next Xtreme",
+            "CUDA Cores": "20480",
+            "Base Clock": "2.4GHz",
+            "Boost Clock": "2.9GHz",
+            "VRAM": "32GB GDDR7",
+            "Memory Bandwidth": "1.8TB/s",
+            "TDP": "420W",
+            "Recommended PSU": "850W Gold",
+            "Ray Tracing Cores": "4th Gen",
+            "Tensor Cores": "5th Gen",
+            "Outputs": "3× DisplayPort 2.1, 1× HDMI 2.1",
+            "Cooling": "Triple‑Fan Vapor Chamber"
+        }
     },
+
     {
-        "id": "8",
+        "id": "nebula-vr-pro",
         "name": "Nebula VR Pro",
         "price": 499,
         "oldPrice": 699,
@@ -189,10 +362,43 @@
         "rating": 4.6,
         "count": 14,
         "createdAt": "2024-01-08",
-        "updatedAt": "2024-01-08"
+        "updatedAt": "2024-01-08",
+        "reviews": [
+            {
+                "id": "1",
+                "title": "Insane immersion",
+                "text": "The 120Hz display makes everything feel incredibly smooth. Zero motion sickness.",
+                "name": "Lucas P.",
+                "isverified": true,
+                "date": "1 week ago"
+            },
+            {
+                "id": "2",
+                "title": "Heavy after an hour",
+                "text": "Comfort is good, but after long sessions it presses on the forehead.",
+                "name": "Anna K.",
+                "isverified": false,
+                "date": "2 weeks ago"
+            }
+        ],
+        "technicalSpecifications": {
+            "Display Resolution": "2160 × 2160 per eye",
+            "Refresh Rate": "120Hz",
+            "Field of View": "110°",
+            "Tracking": "Inside‑Out 6DoF",
+            "Processor": "XR Fusion Engine",
+            "RAM": "8GB",
+            "Storage": "128GB Internal",
+            "Connectivity": "Wi‑Fi 6E, Bluetooth 5.3, USB‑C",
+            "Weight": "610g",
+            "Audio": "Built‑in Spatial Speakers",
+            "Strap Type": "Balanced Halo Strap",
+            "Sensors": "Gyroscope, Accelerometer, Proximity Sensor"
+        }
     },
+
     {
-        "id": "9",
+        "id": "stormcharge-40k",
         "name": "StormCharge PowerBank 40K",
         "price": 59,
         "oldPrice": 89,
@@ -205,10 +411,35 @@
         "rating": 4.3,
         "count": 33,
         "createdAt": "2024-01-09",
-        "updatedAt": "2024-01-09"
+        "updatedAt": "2024-01-09",
+        "reviews": [
+            {
+                "id": "1",
+                "title": "Lasts forever",
+                "text": "Charged my phone 6 times and still had juice left.",
+                "name": "Henry S.",
+                "isverified": true,
+                "date": "4 days ago"
+            }
+        ],
+        "technicalSpecifications": {
+            "Capacity": "40,000mAh",
+            "Input Ports": "USB‑C PD 60W",
+            "Output Ports": "2× USB‑A QC 3.0, 1× USB‑C PD 60W",
+            "Charging Speed": "Up to 60W",
+            "Battery Type": "Li‑ion High Density",
+            "Cycle Life": "800+ Cycles",
+            "Safety": "Overcharge, Overheat, Short‑Circuit Protection",
+            "Weight": "780g",
+            "Dimensions": "155 × 75 × 32 mm",
+            "LED Indicators": "4‑Level Battery Display",
+            "Material": "Impact‑Resistant ABS",
+            "Compatibility": "Phones, Tablets, Laptops"
+        }
     },
+
     {
-        "id": "10",
+        "id": "airbeats-mini",
         "name": "AirBeats Mini Pods",
         "price": 79,
         "oldPrice": 129,
@@ -221,6 +452,38 @@
         "rating": 4.2,
         "count": 21,
         "createdAt": "2024-01-10",
-        "updatedAt": "2024-01-10"
+        "updatedAt": "2024-01-10",
+        "reviews": [
+            {
+                "id": "1",
+                "title": "Good for the price",
+                "text": "Not the best bass, but for this price they’re amazing.",
+                "name": "Julia F.",
+                "isverified": true,
+                "date": "1 week ago"
+            },
+            {
+                "id": "2",
+                "title": "Case feels cheap",
+                "text": "Earbuds are great, but the charging case feels flimsy.",
+                "name": "Tom R.",
+                "isverified": false,
+                "date": "3 weeks ago"
+            }
+        ],
+        "technicalSpecifications": {
+            "Driver Size": "8mm Titanium",
+            "Frequency Response": "20Hz – 20kHz",
+            "Battery Life": "6 Hours (Earbuds) + 24 Hours (Case)",
+            "Charging": "USB‑C Fast Charge",
+            "Bluetooth Version": "Bluetooth 5.3",
+            "Noise Isolation": "Passive Noise Isolation",
+            "Water Resistance": "IPX4",
+            "Weight": "4.2g per earbud",
+            "Microphones": "Dual ENC Mics",
+            "Controls": "Touch Gestures",
+            "Latency Mode": "Low‑Latency Gaming Mode",
+            "Case Material": "Matte ABS Plastic"
+        }
     }
 ]

@@ -1,6 +1,5 @@
 "use client";
 
-import { IProduct, ISalesProducts } from "@/entities/product/api/types";
 import CategoriesTabs from "@/widgets/homePageSection/categories-tabs/categoriesTabs";
 import FlashSales from "@/widgets/homePageSection/FlashSales/FlashSales";
 import HeroSection from "@/widgets/homePageSection/hero-section/heroSecrtion";
@@ -8,13 +7,15 @@ import PopularSection from "@/widgets/homePageSection/popular-section/popularSec
 import TrustBar from "@/widgets/homePageSection/trustBar/trustBar";
 import { useDispatch, useSelector } from "@/store/rootReduser";
 import getPopulyarProducts from "@/store/asyncThunk/populyarProductsThunk";
-import { useEffect, useLayoutEffect } from "react";
+import { useEffect } from "react";
 import { selectIsLoading, selectProducts } from "@/store/slices/productsSlice";
 import {
+    getSalesProductsId,
     selectIsSalesLoading,
     selectSalesProducts,
 } from "@/store/slices/salesProducts";
 import getSalesProducts from "@/store/asyncThunk/salesThunk";
+import Loader from "@/shared/ui/loader/loader";
 
 const LayoutHomePage = () => {
     const dispatch = useDispatch();
@@ -34,14 +35,23 @@ const LayoutHomePage = () => {
         <>
             <HeroSection />
             <CategoriesTabs />
-            <FlashSales
-                loading={isLoadingSalesProducts}
-                saeleProducts={salesProducts}
-            />
-            <PopularSection
-                loading={isLoadingPopulyarProducts}
-                popularProducts={popularProducts}
-            />
+            {isLoadingSalesProducts ? (
+                <Loader />
+            ) : (
+                <FlashSales
+                    loading={isLoadingSalesProducts}
+                    saeleProducts={salesProducts}
+                />
+            )}
+            {isLoadingPopulyarProducts ? (
+                <Loader />
+            ) : (
+                <PopularSection
+                    loading={isLoadingPopulyarProducts}
+                    popularProducts={popularProducts}
+                />
+            )}
+
             <TrustBar />
         </>
     );

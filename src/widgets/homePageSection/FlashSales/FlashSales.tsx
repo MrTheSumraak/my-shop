@@ -27,18 +27,22 @@ const FlashSales = ({ saeleProducts, loading }: ISaleProducts) => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                {saeleProducts
-                    .slice(0, 4)
-                    .map((product) =>
-                        loading ? (
-                            <Loader key={product.id} />
-                        ) : (
-                            <FlashSalesCard
-                                key={product.id}
-                                saleProduct={product}
-                            />
-                        ),
-                    )}
+                {loading ? (
+                    <Loader />
+                ) : (
+                    saeleProducts
+                        .slice(0, 4)
+                        .map((product) =>
+                            loading ? (
+                                <Loader key={product.id} />
+                            ) : (
+                                <FlashSalesCard
+                                    key={product.id}
+                                    saleProduct={product}
+                                />
+                            ),
+                        )
+                )}
             </div>
         </section>
     );

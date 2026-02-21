@@ -1,30 +1,11 @@
-import NavBar from "@/widgets/productPageDetailsSection/navBar.tsx/navBar";
-import ProductInfo from "@/widgets/productPageDetailsSection/productInfo/productInfo";
-import "@/widgets/productPageDetailsSection/styles/productDetailsCSS.css";
-import Loading from "./loading";
-import TechnicalSpecifications from "@/widgets/productPageDetailsSection/technicalSpecifications/TechnicalSpecifications";
-import UserReviews from "@/widgets/productPageDetailsSection/userReviews/UserReviews";
-import apiRequest from "@/lib/apiRequest";
+import { use } from "react";
+import ProductPageClient from "@/widgets/productPageDetailsSection/productPageDetailsClient/productPageDetailsClient";
 
-interface ProductPageProps {
-    params?: {
-        id: string;
-    };
+interface IProductPageProps {
+    params: Promise<{ id: string }>;
 }
 
-const ProductPageDetails = ({ params }: ProductPageProps) => {
-    // const { id } = params;
-    // const product = await getProductById(id);
-
-    return (
-        <section className="max-w-[1280px] mx-auto px-4 lg:px-20 py-8">
-            {/* <Loading /> */}
-            <NavBar />
-            <ProductInfo />
-            <TechnicalSpecifications />
-            <UserReviews />
-        </section>
-    );
-};
-
-export default ProductPageDetails;
+export default function ProductPageDetails({ params }: IProductPageProps) {
+    const { id } = use(params);
+    return <ProductPageClient id={id} />;
+}

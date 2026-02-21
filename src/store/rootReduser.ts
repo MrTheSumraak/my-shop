@@ -8,10 +8,12 @@ import {
 } from "react-redux";
 import { reducer as productsReducer,  } from './slices/productsSlice';
 import { reducer as salesProductsSlice } from './slices/salesProducts';
+import { reducer as reviewsProductsSlice } from './slices/reviewsSlices';
 
 export const rootReducer = combineReducers({
     populyarProducts: productsReducer,
-    salesProducts: salesProductsSlice
+    salesProducts: salesProductsSlice,
+    reviewsProducts: reviewsProductsSlice
 });
 
 const store = configureStore({

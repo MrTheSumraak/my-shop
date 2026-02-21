@@ -1,9 +1,17 @@
+"use client";
+
+import { ISalesProducts } from "@/entities/product/api/types";
 import AddToCard from "@/shared/ui/iconComponents/AddToCard";
 import LikeIcon from "@/shared/ui/iconComponents/LikeIcon";
 import TruckIcon from "@/shared/ui/iconComponents/TruckIcon";
 import VerifiedUser from "@/shared/ui/iconComponents/VerifiedUser";
+import Star from "@/shared/ui/star/star";
 
-const ProductDetails = () => {
+interface IProductDetails {
+    product: ISalesProducts | null;
+}
+
+const ProductDetails = ({ product }: IProductDetails) => {
     return (
         <div className="lg:col-span-5 flex flex-col gap-6">
             <div>
@@ -11,46 +19,45 @@ const ProductDetails = () => {
                     Premium Series
                 </span>
                 <h1 className="text-4xl lg:text-5xl font-black tracking-tight leading-tight mb-4">
-                    Quantum X-1 Gaming Headset
+                    {product?.name}
                 </h1>
                 <div className="flex items-center gap-4">
                     <div className="flex items-center text-primary">
                         <span className="material-symbols-outlined fill-1">
-                            star
+                            <Star />
                         </span>
                         <span className="material-symbols-outlined fill-1">
-                            star
+                            <Star />
                         </span>
                         <span className="material-symbols-outlined fill-1">
-                            star
+                            <Star />
                         </span>
                         <span className="material-symbols-outlined fill-1">
-                            star
+                            <Star />
                         </span>
                         <span className="material-symbols-outlined">
-                            star_half
+                            <Star />
                         </span>
                     </div>
                     <span className="text-[#8dbace] text-sm">
-                        4.8 (214 Reviews)
+                        {product?.rating} (
+                        {product?.additionalInfo?.reviewsCount} Reviews)
                     </span>
                 </div>
             </div>
 
             <div className="flex items-baseline gap-4">
-                <span className="text-4xl font-bold">$249.00</span>
+                <span className="text-4xl font-bold">${product?.discountPrice}</span>
                 <span className="text-[#8dbace] text-xl line-through">
-                    $299.00
+                    {product?.price}
                 </span>
                 <span className="bg-primary/20 text-primary px-2 py-1 rounded text-sm font-bold">
-                    17% OFF
+                    {product?.discountPrice}% OFF
                 </span>
             </div>
 
             <p className="text-[#8dbace] text-lg leading-relaxed">
-                Experience unparalleled spatial audio precision with the Quantum
-                X-1. Engineered for competitive gaming, featuring active noise
-                cancellation and pro-grade wireless connectivity.
+                {product?.description}
             </p>
 
             <div className="flex flex-col gap-4 py-4">
@@ -76,7 +83,9 @@ const ProductDetails = () => {
                     Add to Cart
                 </button>
                 <button className="w-full glass-panel hover:bg-white/10 text-white h-12 rounded-xl font-bold transition-all flex items-center justify-center gap-3">
-                    <span className="material-symbols-outlined"><LikeIcon /></span>
+                    <span className="material-symbols-outlined">
+                        <LikeIcon />
+                    </span>
                     Save to Wishlist
                 </button>
             </div>

@@ -9,7 +9,7 @@ import StoreProvider from "./storeProvider/StoreProvider";
 
 export default function RootLayout({ children }: ILayoutProps) {
     return (
-        <html lang="ru" className={manrope.variable} suppressHydrationWarning>
+        <html lang="ru" className={manrope.variable} data-scroll-behavior="smooth" suppressHydrationWarning>
             <body>
                 <StoreProvider>
                     <HeaderUI />

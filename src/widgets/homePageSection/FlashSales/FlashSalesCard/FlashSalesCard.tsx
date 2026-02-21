@@ -1,7 +1,11 @@
 import { ISalesProducts } from "@/entities/product/api/types";
 import Link from "next/link";
 
-const FlashSalesCard = ({ saleProduct }: { saleProduct: ISalesProducts }) => {
+interface FlashSalesCardProps {
+    saleProduct: ISalesProducts;
+}
+
+const FlashSalesCard = ({ saleProduct }: FlashSalesCardProps) => {
     const { oldPrice, discountPrice, discountPercent, imageUrl, name } =
         saleProduct;
     return (

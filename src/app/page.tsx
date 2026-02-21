@@ -1,6 +1,5 @@
-import apiRequest from "@/lib/apiRequest";
-import Loader from "@/shared/ui/loader/loader";
 import LayoutHomePage from "@/widgets/homePageSection/layout-home-page/layout";
+import ProductPageDetails from "./product/[id]/page";
 
 async function HomePage() {
     return (
