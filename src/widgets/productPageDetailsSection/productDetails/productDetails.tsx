@@ -6,12 +6,27 @@ import LikeIcon from "@/shared/ui/iconComponents/LikeIcon";
 import TruckIcon from "@/shared/ui/iconComponents/TruckIcon";
 import VerifiedUser from "@/shared/ui/iconComponents/VerifiedUser";
 import Star from "@/shared/ui/star/star";
+import { useDispatch, useSelector } from "@/store/rootReduser";
+import {
+    addProductToBasket,
+    selectIsProductInBasket,
+} from "@/store/slices/basketSlices";
 
 interface IProductDetails {
-    product: ISalesProducts | null;
+    product: ISalesProducts;
 }
 
 const ProductDetails = ({ product }: IProductDetails) => {
+    const { additionalInfo } = product || {};
+    const { colors } = additionalInfo || {};
+    const dispatch = useDispatch();
+    const isProductInBasket = useSelector(selectIsProductInBasket(product.id));
+
+    const handleAddToCard = () => {
+        dispatch(addProductToBasket(product));
+    };
+
+    const colorsArray: string[] = (colors && Object.values(colors)) || [];
     return (
         <div className="lg:col-span-5 flex flex-col gap-6">
             <div>
@@ -23,21 +38,21 @@ const ProductDetails = ({ product }: IProductDetails) => {
                 </h1>
                 <div className="flex items-center gap-4">
                     <div className="flex items-center text-primary">
-                        <span className="material-symbols-outlined fill-1">
-                            <Star />
-                        </span>
-                        <span className="material-symbols-outlined fill-1">
-                            <Star />
-                        </span>
-                        <span className="material-symbols-outlined fill-1">
-                            <Star />
-                        </span>
-                        <span className="material-symbols-outlined fill-1">
-                            <Star />
-                        </span>
-                        <span className="material-symbols-outlined">
-                            <Star />
-                        </span>
+                        {product?.rating &&
+                            Array.from({ length: product?.rating || 0 }).map(
+                                (_, index) => (
+                                    <span
+                                        key={index}
+                                        className="material-symbols-outlined fill-1"
+                                    >
+                                        <Star
+                                            width="clamp(0.78rem, 0.9vw, 1.2rem)"
+                                            height="clamp(0.7rem, 0.89vw, 1.063rem)"
+                                            className="text-primary"
+                                        />
+                                    </span>
+                                ),
+                            )}
                     </div>
                     <span className="text-[#8dbace] text-sm">
                         {product?.rating} (
@@ -47,7 +62,9 @@ const ProductDetails = ({ product }: IProductDetails) => {
             </div>
 
             <div className="flex items-baseline gap-4">
-                <span className="text-4xl font-bold">${product?.discountPrice}</span>
+                <span className="text-4xl font-bold">
+                    ${product?.discountPrice}
+                </span>
                 <span className="text-[#8dbace] text-xl line-through">
                     {product?.price}
                 </span>
@@ -61,27 +78,45 @@ const ProductDetails = ({ product }: IProductDetails) => {
             </p>
 
             <div className="flex flex-col gap-4 py-4">
-                <div className="flex gap-4">
-                    <div className="flex-1">
-                        <label className="text-xs text-[#8dbace] font-bold uppercase mb-2 block">
-                            Select Color
-                        </label>
-                        <div className="flex gap-2">
-                            <button className="size-8 rounded-full bg-background-dark border-2 border-primary ring-2 ring-background-dark" />
-                            <button className="size-8 rounded-full bg-gray-400 border-2 border-transparent hover:border-white/50" />
-                            <button className="size-8 rounded-full bg-[#203e4b] border-2 border-transparent hover:border-white/50" />
+                {colorsArray.length > 0 && (
+                    <div className="flex gap-4">
+                        <div className="flex-1">
+                            <label className="text-xs text-[#8dbace] font-bold uppercase mb-2 block">
+                                Select Color
+                            </label>
+                            <div className="flex gap-2">
+                                {colorsArray.map((color) => (
+                                    <button
+                                        key={color}
+                                        className="size-8 rounded-full border-2 border-transparent hover:border-white/50"
+                                        style={{
+                                            backgroundColor: color,
+                                        }}
+                                    />
+                                ))}
+                            </div>
                         </div>
                     </div>
-                </div>
+                )}
             </div>
 
             <div className="flex flex-col gap-3 mt-4">
-                <button className="w-full bg-primary hover:bg-primary/90 text-white h-14 rounded-xl font-bold text-lg transition-all shadow-lg shadow-primary/20 flex items-center justify-center gap-3">
-                    <span className="material-symbols-outlined">
-                        <AddToCard />
-                    </span>
-                    Add to Cart
-                </button>
+                {isProductInBasket ? (
+                    <div className="w-full bg-primary hover:bg-primary/90 text-white h-14 rounded-xl font-bold text-lg transition-all shadow-lg shadow-primary/20 flex items-center justify-center gap-3">
+                        <span>In Cart</span>
+                    </div>
+                ) : (
+                    <button
+                        onClick={handleAddToCard}
+                        className="w-full bg-primary hover:bg-primary/90 text-white h-14 rounded-xl font-bold text-lg transition-all shadow-lg shadow-primary/20 flex items-center justify-center gap-3"
+                    >
+                        <span className="material-symbols-outlined">
+                            <AddToCard />
+                        </span>
+                        Add to Cart
+                    </button>
+                )}
+
                 <button className="w-full glass-panel hover:bg-white/10 text-white h-12 rounded-xl font-bold transition-all flex items-center justify-center gap-3">
                     <span className="material-symbols-outlined">
                         <LikeIcon />

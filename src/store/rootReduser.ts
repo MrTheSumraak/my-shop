@@ -6,16 +6,18 @@ import {
     useDispatch as dispatchHook,
     useSelector as selectorHook,
 } from "react-redux";
-import { reducer as productsReducer,  } from './slices/productsSlice';
-import { reducer as salesProductsSlice } from './slices/salesProducts';
-import { reducer as reviewsProductsSlice } from './slices/reviewsSlices';
-import { reducer as basketProductsSlice } from './slices/basketSlices';
+// import { reducer as productsReducer,  } from './slices/productsSlice';
+// import { reducer as salesProductsSlice } from './slices/salesProducts';
+// import { reducer as reviewsProductsSlice } from './slices/reviewsSlices';
+import { reducer as filtersSlice } from "./slices/filtersSlices";
+import { reducer as basketProductsSlice } from "./slices/basketSlices";
 
 export const rootReducer = combineReducers({
-    populyarProducts: productsReducer,
-    salesProducts: salesProductsSlice,
-    reviewsProducts: reviewsProductsSlice,
-    basketProducts: basketProductsSlice
+    // populyarProducts: productsReducer,
+    // salesProducts: salesProductsSlice,
+    // reviewsProducts: reviewsProductsSlice,
+    basketProducts: basketProductsSlice,
+    filtersProducts: filtersSlice,
 });
 
 const store = configureStore({

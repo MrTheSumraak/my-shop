@@ -1,14 +1,10 @@
-"use client";
-
 import Stopwatch from "@/shared/ui/iconComponents/Stopwatch";
 import FlashSalesCard from "./FlashSalesCard/FlashSalesCard";
 import { ISaleProducts } from "./FlashSalesCard/types";
 import Loader from "@/shared/ui/loader/loader";
-import { useDispatch } from "@/store/rootReduser";
+import Link from "next/link";
 
 const FlashSales = ({ saeleProducts, loading }: ISaleProducts) => {
-    const dispatch = useDispatch();
-    
     return (
         <section className="max-w-[1440px] mx-auto px-4 lg:px-20 mb-16">
             <div className="flex items-center justify-between mb-8">
@@ -23,12 +19,12 @@ const FlashSales = ({ saeleProducts, loading }: ISaleProducts) => {
                     </div>
                 </div>
 
-                <a
+                <Link
                     className="text-primary text-sm font-bold hover:underline"
                     href="#"
                 >
                     View All Deals
-                </a>
+                </Link>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

@@ -43,11 +43,15 @@ module.exports = {
                 "background-dark": "#0E0E0E",
                 "card-dark": "#1A1A1A",
                 "border-dark": "#2e2e2e",
-                
+
                 "accent-green": "#00FF9D",
                 "background-light": "#f5f7f8",
                 "background-dark": "#0b0b0b",
                 "surface-dark": "#161b22",
+
+                "accent-catalog-green": "#39ff14",
+                "background-catalog-dark": "#0d0d0d",
+                "card-dark": "#1a1a1a",
             },
             borderRadius: {
                 DEFAULT: "0.25rem",

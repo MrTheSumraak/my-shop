@@ -1,6 +1,13 @@
+"use client";
+
 import { ISalesProducts } from "@/entities/product/api/types";
-import { useDispatch } from "@/store/rootReduser";
-import { addProductToBasket } from "@/store/slices/basketSlices";
+import useProductById from "@/shared/api/useProductById";
+import { useDispatch, useSelector } from "@/store/rootReduser";
+import {
+    addProductToBasket,
+    incrementProduct,
+    selectIsProductInBasket,
+} from "@/store/slices/basketSlices";
 import Link from "next/link";
 
 interface FlashSalesCardProps {
@@ -8,13 +15,30 @@ interface FlashSalesCardProps {
 }
 
 const FlashSalesCard = ({ saleProduct }: FlashSalesCardProps) => {
-    const { oldPrice, discountPrice, discountPercent, imageUrl, name } =
-        saleProduct;
+    const {
+        oldPrice,
+        discountPrice,
+        discountPercent,
+        imageUrl,
+        name,
+        id,
+        count,
+    } = saleProduct;
     const dispatch = useDispatch();
+    const isProduct = useSelector(selectIsProductInBasket(id));
+
     const handleAddToCart = (e: React.MouseEvent<HTMLButtonElement>) => {
         e.preventDefault();
+        if (isProduct) {
+            alert("Товар уже в корзине");
+            return;
+        }
+
         dispatch(addProductToBasket(saleProduct));
+        dispatch(incrementProduct(id));
+        alert("Товар добавлен в корзину");
     };
+
     return (
         <Link
             href={`/product/${saleProduct.id}`}
@@ -46,15 +70,26 @@ const FlashSalesCard = ({ saleProduct }: FlashSalesCardProps) => {
             </div>
 
             <p className="text-[10px] text-gray-500 font-bold uppercase mb-4">
-                12 Items Left
+                {count} Items Left
             </p>
 
-            <button
-                onClick={handleAddToCart}
-                className="w-full py-2 bg-primary/10 text-primary border border-primary/20 hover:bg-primary hover:text-background-dark font-bold rounded-lg transition-all text-sm"
-            >
-                Add to Cart
-            </button>
+            {isProduct ? (
+                <button
+                    onClick={(e) => {
+                        e.preventDefault();
+                    }}
+                    className="w-full py-2 bg-primary text-background-dark font-bold rounded-lg transition-all text-sm"
+                >
+                    The product has been added to the cart!
+                </button>
+            ) : (
+                <button
+                    onClick={handleAddToCart}
+                    className="w-full py-2 bg-primary/10 text-primary border border-primary/20 hover:bg-primary hover:text-background-dark font-bold rounded-lg transition-all text-sm"
+                >
+                    Add to Cart
+                </button>
+            )}
         </Link>
     );
 };

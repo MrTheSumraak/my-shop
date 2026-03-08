@@ -8,6 +8,7 @@ export interface IProduct {
     id: string;
     name: string;
     price: number;
+    brand: string;
     imageUrl: string;
     description: string;
 
@@ -15,13 +16,14 @@ export interface IProduct {
     category: TCategories;
     rating: number;
     count: number; // количество товаров в наличии
+    countInBasket?: number; // количество товаров в корзине
     createdAt: string; // дата создания товара
     updatedAt: string; // дата последнего обновления товара
     reviews?: IUserReviews[]; // отзывы
 
     additionalInfo?: {
         gallery: string[]; // дополнительные изображения товара
-        colors: string[]; // доступные цвета (hex или названия)
+        colors: { [key: string]: string }; // доступные цвета (hex или названия)
         series: TSeries; // серия товара
         reviewsCount: number; // количество оценок
     };
@@ -29,9 +31,9 @@ export interface IProduct {
 }
 
 export interface ISalesProducts extends IProduct {
-    oldPrice: number; // цена до скидки
-    discountPrice: number; // цена со скидкой (дублирует price, но можно оставить)
-    discountPercent: number; // скидка в процентах
+    oldPrice?: number; // цена до скидки
+    discountPrice?: number; // цена со скидкой (дублирует price, но можно оставить)
+    discountPercent?: number; // скидка в процентах
 }
 
 export interface IUserReviews {

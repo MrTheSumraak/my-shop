@@ -2,7 +2,8 @@ import { IPopularSection } from "./types";
 import PopularSectionCard from "./popularSectionCard/popularSectionCars";
 import Loader from "@/shared/ui/loader/loader";
 
-const PopularSection = ({ popularProducts, loading }: IPopularSection) => {
+const PopularSection = ({ popularProducts, loading, error }: IPopularSection) => {
+    if (error) return <div>{error.message}</div>;
     return (
         <section className="max-w-[1440px] mx-auto px-4 lg:px-20 py-12 bg-gray-100 dark:bg-card-dark/30 rounded-3xl mb-16">
             <h2 className="text-2xl font-bold mb-8 px-4">Popular Now</h2>

@@ -1,11 +1,17 @@
 "use client";
 
-import useLoaderProductId from "@/lib/useLoaderProductId";
 import SettingsIcon from "@/shared/ui/iconComponents/SettingsIcon";
 import TechnicalSpecificationsItem from "./TechnicalSpecificationsItem/TechnicalSpecificationsItem";
+import { ISalesProducts } from "@/entities/product/api/types";
 
-const TechnicalSpecifications = ({ id }: { id: string }) => {
-    const { technicalSpecifications } = useLoaderProductId({ id: id || "" });
+interface ITechnicalSpecifications {
+    selectedProduct: ISalesProducts | undefined;
+}
+
+const TechnicalSpecifications = ({
+    selectedProduct,
+}: ITechnicalSpecifications) => {
+    const { technicalSpecifications } = selectedProduct || {};
 
     return (
         <section className="mb-20">

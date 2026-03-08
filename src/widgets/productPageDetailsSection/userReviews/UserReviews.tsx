@@ -2,10 +2,15 @@
 
 import UserReviewsItem from "./userReviewsItem/userReviewsItem";
 import ReviewsIcon from "@/shared/ui/iconComponents/ReviewsIcon";
-import useLoaderProductId from "@/lib/useLoaderProductId";
+import { ISalesProducts } from "@/entities/product/api/types";
+import Loader from "@/shared/ui/loader/loader";
 
-const UserReviews = ({ id }: { id: string }) => {
-    const { reviews } = useLoaderProductId({ id: id || "" });
+interface IUserReviews {
+    selectedProduct: ISalesProducts | undefined;
+}
+
+const UserReviews = ({ selectedProduct }: IUserReviews) => {
+    const { reviews } = selectedProduct || {};
 
     return (
         <section className="mb-20">

@@ -35,6 +35,6 @@
         "**/*.tsx",
         ".next/types/**/*.ts",
         ".next/dev/types/**/*.ts"
-, "src/widgets/basketPage/productList"    ],
+, "src/widgets/basketPage/productList", "src/lib/renderIcon.tsч", "src/widgets/homePageSection/trustBar/trustBarItem", "src/app/api/productsAll"    ],
     "exclude": ["node_modules"]
 }

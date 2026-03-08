@@ -1,7 +1,31 @@
 import BasketIcon from "@/shared/ui/iconComponents/BasketIcon";
+import BoltIcon from "@/shared/ui/iconComponents/Bolt";
 import LikeIcon from "@/shared/ui/iconComponents/LikeIcon";
-import SearchIcon from "@/shared/ui/iconComponents/SearchIcon";
 import Link from "next/link";
+import Search from "./HeaderSearch";
+
+const LINK_CONTENT = [
+    {
+        title: "Laptops",
+        href: "#",
+    },
+    {
+        title: "Smartphones",
+        href: "#",
+    },
+    {
+        title: "Components",
+        href: "#",
+    },
+    {
+        title: "Audio",
+        href: "#",
+    },
+    {
+        title: "Wearables",
+        href: "#",
+    },
+];
 
 const HeaderUI = () => {
     return (
@@ -9,9 +33,12 @@ const HeaderUI = () => {
             <div className="max-w-[1440px] mx-auto flex items-center justify-between gap-8">
                 <div className="flex items-center gap-12">
                     <div className="flex items-center gap-3">
-                        <Link href="/" className="size-8 bg-primary rounded-lg flex items-center justify-center text-background-dark">
+                        <Link
+                            href="/"
+                            className="size-8 bg-primary rounded-lg flex items-center justify-center text-background-dark"
+                        >
                             <span className="material-symbols-outlined font-bold">
-                                bolt
+                                <BoltIcon />
                             </span>
                         </Link>
                         <h2 className="text-xl font-bold tracking-tight">
@@ -20,50 +47,20 @@ const HeaderUI = () => {
                     </div>
 
                     <nav className="hidden xl:flex items-center gap-8">
-                        <a
-                            className="text-sm font-medium hover:text-primary transition-colors"
-                            href="#"
-                        >
-                            Laptops
-                        </a>
-                        <a
-                            className="text-sm font-medium hover:text-primary transition-colors"
-                            href="#"
-                        >
-                            Smartphones
-                        </a>
-                        <a
-                            className="text-sm font-medium hover:text-primary transition-colors"
-                            href="#"
-                        >
-                            Components
-                        </a>
-                        <a
-                            className="text-sm font-medium hover:text-primary transition-colors"
-                            href="#"
-                        >
-                            Audio
-                        </a>
-                        <a
-                            className="text-sm font-medium hover:text-primary transition-colors"
-                            href="#"
-                        >
-                            Wearables
-                        </a>
+                        {LINK_CONTENT.map(({ title, href }) => (
+                            <Link
+                                key={title}
+                                href={href}
+                                className="text-sm font-medium hover:text-primary transition-colors"
+                            >
+                                {title}
+                            </Link>
+                        ))}
                     </nav>
                 </div>
 
                 <div className="flex flex-1 justify-end items-center gap-6">
-                    <div className="hidden md:flex flex-1 max-w-md relative group">
-                        <span className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-primary transition-colors">
-                            <SearchIcon />
-                        </span>
-                        <input
-                            className="w-full h-10 pl-10 pr-4 rounded-lg border-none bg-gray-100 dark:bg-card-dark text-sm focus:ring-1 focus:ring-primary transition-all placeholder:text-gray-500"
-                            placeholder="Search future tech..."
-                            type="text"
-                        />
-                    </div>
+                    <Search />
 
                     <div className="flex items-center gap-3">
                         <button className="p-2 hover:bg-gray-100 dark:hover:bg-card-dark rounded-lg transition-colors">
@@ -72,7 +69,10 @@ const HeaderUI = () => {
                             </span>
                         </button>
 
-                        <Link href="/basket" className="p-2 hover:bg-gray-100 dark:hover:bg-card-dark rounded-lg transition-colors relative">
+                        <Link
+                            href="/basket"
+                            className="p-2 hover:bg-gray-100 dark:hover:bg-card-dark rounded-lg transition-colors relative"
+                        >
                             <span className="material-symbols-outlined">
                                 <BasketIcon />
                             </span>

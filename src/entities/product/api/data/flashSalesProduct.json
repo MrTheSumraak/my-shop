@@ -12,6 +12,7 @@
         "category": "audio",
         "rating": 4.8,
         "count": 12,
+        "countInBasket": 0,
         "createdAt": "2024-01-01",
         "updatedAt": "2024-01-01",
         "reviews": [
@@ -77,6 +78,7 @@
         "category": "smartphones",
         "rating": 4.9,
         "count": 5,
+        "countInBasket": 0,
         "createdAt": "2024-01-02",
         "updatedAt": "2024-01-02",
         "reviews": [
@@ -126,6 +128,7 @@
         "category": "components",
         "rating": 4.7,
         "count": 28,
+        "countInBasket": 0,
         "createdAt": "2024-01-03",
         "updatedAt": "2024-01-03",
         "reviews": [
@@ -183,6 +186,7 @@
         "category": "wearables",
         "rating": 4.6,
         "count": 45,
+        "countInBasket": 0,
         "createdAt": "2024-01-04",
         "updatedAt": "2024-01-04",
         "reviews": [],
@@ -215,6 +219,7 @@
         "category": "laptops",
         "rating": 4.5,
         "count": 9,
+        "countInBasket": 0,
         "createdAt": "2024-01-05",
         "updatedAt": "2024-01-05",
         "reviews": [
@@ -255,6 +260,7 @@
         "category": "audio",
         "rating": 4.4,
         "count": 18,
+        "countInBasket": 0,
         "createdAt": "2024-01-06",
         "updatedAt": "2024-01-06",
         "reviews": [
@@ -304,6 +310,7 @@
         "category": "components",
         "rating": 4.9,
         "count": 0,
+        "countInBasket": 0,
         "createdAt": "2024-01-07",
         "updatedAt": "2024-01-07",
         "reviews": [
@@ -361,6 +368,7 @@
         "category": "wearables",
         "rating": 4.6,
         "count": 14,
+        "countInBasket": 0,
         "createdAt": "2024-01-08",
         "updatedAt": "2024-01-08",
         "reviews": [
@@ -410,6 +418,7 @@
         "category": "accessories",
         "rating": 4.3,
         "count": 33,
+        "countInBasket": 0,
         "createdAt": "2024-01-09",
         "updatedAt": "2024-01-09",
         "reviews": [
@@ -451,6 +460,7 @@
         "category": "audio",
         "rating": 4.2,
         "count": 21,
+        "countInBasket": 0,
         "createdAt": "2024-01-10",
         "updatedAt": "2024-01-10",
         "reviews": [

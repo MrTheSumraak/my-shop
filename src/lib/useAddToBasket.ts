@@ -1,16 +1,14 @@
-import { ISalesProducts } from "@/entities/product/api/types";
-import { useDispatch } from "@/store/rootReduser";
-import { addProductToBasket } from "@/store/slices/basketSlices";
+// import { ISalesProducts } from "@/entities/product/api/types";
+// import { useDispatch } from "@/store/rootReduser";
+// import { addProductToBasket } from "@/store/slices/basketSlices";
 
-interface IUseAddToBasket {
-    product: ISalesProducts;
-    dispatch: typeof useDispatch;
-}
+// interface IUseAddToBasket {
+//     product: ISalesProducts;
+//     dispatch: typeof useDispatch;
+// }
 
-const useAddToBasket = ({product}: IUseAddToBasket) => {
-    const dispatch = useDispatch();
+// const useAddToBasket = ({ product, dispatch }: IUseAddToBasket) => {
+//     dispatch(addProductToBasket(product));
+// };
 
-    dispatch(addProductToBasket(product));
-};
-
-export default useAddToBasket;
+// export default useAddToBasket;
