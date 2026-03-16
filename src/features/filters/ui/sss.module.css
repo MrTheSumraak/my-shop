@@ -1,0 +1,30 @@
+.filter {
+    /* Адаптивная максимальная высота */
+    max-height: clamp(22.5rem, 80vh, 37rem);
+
+    /* Скролл */
+    overflow-y: auto;
+    scroll-behavior: smooth;
+
+    /* Чтобы скролл не прыгал при появлении */
+    scrollbar-gutter: stable;
+}
+
+/* Красивый тонкий скроллбар */
+.filter::-webkit-scrollbar {
+    width: 6px;
+}
+
+.filter::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+}
+
+.filter::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #6366f1, #8b5cf6);
+    border-radius: 4px;
+}
+
+.filter::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #4f46e5, #7c3aed);
+}

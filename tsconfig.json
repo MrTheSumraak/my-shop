@@ -1,34 +1,45 @@
 {
-  "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "react-jsx",
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "paths": {
-      "@/*": ["./*"]
-    }
-  },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts",
-    "**/*.mts"
-  ],
-  "exclude": ["node_modules"]
+    "compilerOptions": {
+        "target": "ES2017",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "react-jsx",
+        "incremental": true,
+        "plugins": [
+            {
+                "name": "next"
+            }
+        ],
+        "paths": {
+            "@/*": ["./src/*"],
+            "@/entities/*": ["./src/entities/*"],
+            "@/features/*": ["./src/features/*"],
+            "@/widgets/*": ["./src/widgets/*"],
+            "@/shared/*": ["./src/shared/*"],
+            "@/pages/*": ["./src/pages/*"],
+            "@/app/*": ["./src/app/*"],
+            "@/store/*": ["./src/store/*"],
+            "@/models/*": ["./src/models/*"]
+        }
+    },
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        ".next/types/**/*.ts",
+        ".next/dev/types/**/*.ts",
+        "src/widgets/basketPage/productList",
+        "src/lib/renderIcon.tsч",
+        "src/widgets/homePageSection/trustBar/trustBarItem",
+        "src/app/api/productsAll"
+, "src/hooks/useGetProductsPaginationCategory.tss", "src/app/api/allProducts"    ],
+    "exclude": ["node_modules"]
 }

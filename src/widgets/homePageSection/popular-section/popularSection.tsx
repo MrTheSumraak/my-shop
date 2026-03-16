@@ -1,0 +1,41 @@
+import { IPopularSection } from "./types";
+import PopularSectionCard from "./popularSectionCard/popularSectionCars";
+import Loader from "@/shared/ui/loader/loader";
+import Link from "next/link";
+
+const PopularSection = ({
+    popularProducts,
+    loading,
+    error,
+}: IPopularSection) => {
+    if (error) return <div>{error.message}</div>;
+    return (
+        <section className="max-w-[1440px] mx-auto px-4 lg:px-20 py-12 bg-gray-100 dark:bg-card-dark/30 rounded-3xl mb-16">
+            <div className="flex flex-row justify-between">
+                <h2 className="text-2xl font-bold mb-8 px-4">Popular Now</h2>
+                <Link
+                    className="text-primary text-sm font-bold hover:underline"
+                    href={`/catalog/collections/popular`}
+                >
+                    View All Deals
+                </Link>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
+                {loading ? (
+                    <Loader />
+                ) : (
+                    popularProducts.items
+                        .slice(0, 4)
+                        .map((product) => (
+                            <PopularSectionCard
+                                key={product.id}
+                                item={product}
+                            />
+                        ))
+                )}
+            </div>
+        </section>
+    );
+};
+
+export default PopularSection;
