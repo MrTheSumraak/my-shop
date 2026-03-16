@@ -1070,783 +1070,788 @@
             ]
         },
 
-        "flashSales": [
-            {
-                "id": "sonic-pro-wireless-g2",
-                "name": "Sonic Pro Wireless G2",
-                "price": 299,
-                "oldPrice": 399,
-                "discountPrice": 299,
-                "discountPercent": 25,
-                "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCSJAfu0YwoavjbiMKsN04fTxnn3VpBHC2XuzwghE0JOZF4HTGmhxmOIyHmHcLYNlGKatBRxObSg8N0PfUx32n_8HGetSRBkJLiCkagdbLlHKOe6c6bt80fDacavcAgs61uQUl8xTUiviFtIQyDdqe9sZutWv_mVNsx6iUq70x3XVvg0-Ya0N8AyRkDcgC8jfniAgCof_ao1y2tIjDBgsO0HRFyRXl77o-l7nuHg9rCDnuhYn9J5eQvOqccccCLClt9JYHNZpg",
-                "description": "Sleek black wireless headphones with metallic finish",
-                "inStock": true,
-                "category": "audio",
-                "rating": 4.8,
-                "count": 12,
-                "countInBasket": 0,
-                "createdAt": "2024-01-01",
-                "updatedAt": "2024-01-01",
-                "reviews": [
+        "collection": {
+            "flashSales": {
+                "discountEndAt": "2026-03-13T23:59:59.000Z",
+                "products": [
                     {
-                        "id": "1",
-                        "title": "Best Audio Quality",
-                        "text": "The spatial awareness in FPS games is incredible. I can hear exactly where footsteps are coming from. Highly recommend.",
-                        "name": "John D.",
-                        "isverified": true,
-                        "date": "2 days ago"
+                        "id": "sonic-pro-wireless-g2-flash",
+                        "name": "Sonic Pro Wireless G2",
+                        "price": 299,
+                        "oldPrice": 399,
+                        "discountPrice": 299,
+                        "discountPercent": 25,
+                        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCSJAfu0YwoavjbiMKsN04fTxnn3VpBHC2XuzwghE0JOZF4HTGmhxmOIyHmHcLYNlGKatBRxObSg8N0PfUx32n_8HGetSRBkJLiCkagdbLlHKOe6c6bt80fDacavcAgs61uQUl8xTUiviFtIQyDdqe9sZutWv_mVNsx6iUq70x3XVvg0-Ya0N8AyRkDcgC8jfniAgCof_ao1y2tIjDBgsO0HRFyRXl77o-l7nuHg9rCDnuhYn9J5eQvOqccccCLClt9JYHNZpg",
+                        "description": "Sleek black wireless headphones with metallic finish",
+                        "inStock": true,
+                        "category": "audio",
+                        "rating": 4.8,
+                        "count": 12,
+                        "countInBasket": 0,
+                        "createdAt": "2024-01-01",
+                        "updatedAt": "2024-01-01",
+                        "reviews": [
+                            {
+                                "id": "1",
+                                "title": "Best Audio Quality",
+                                "text": "The spatial awareness in FPS games is incredible. I can hear exactly where footsteps are coming from. Highly recommend.",
+                                "name": "John D.",
+                                "isverified": true,
+                                "date": "2 days ago"
+                            },
+                            {
+                                "id": "2",
+                                "title": "Comfy for Long Sessions",
+                                "text": "Super lightweight and the ear cups don't get hot. Battery life easily lasts my entire weekend gaming sessions.",
+                                "name": "Sarah M.",
+                                "isverified": true,
+                                "date": "1 week ago"
+                            },
+                            {
+                                "id": "3",
+                                "title": "Mic clarity is insane",
+                                "text": "My teammates noticed the difference immediately. It sounds like I'm using a studio microphone. Worth every penny.",
+                                "name": "Alex K.",
+                                "isverified": true,
+                                "date": "2 weeks ago"
+                            },
+                            {
+                                "id": "4",
+                                "title": "Great Build Quality",
+                                "text": "Solid construction, premium feel, and the headband is super comfortable. Easily the best headset I've owned.",
+                                "name": "Michael R.",
+                                "isverified": true,
+                                "date": "3 weeks ago"
+                            }
+                        ],
+                        "technicalSpecifications": {
+                            "Driver Diameter": "50mm Neodymium",
+                            "Frequency Response": "10Hz – 40kHz",
+                            "Impedance": "32Ω ± 15%",
+                            "Sensitivity": "108dB ± 3dB",
+                            "Battery Life": "Up to 30 Hours",
+                            "Charging Time": "2 Hours (USB‑C Fast Charge)",
+                            "Wireless Technology": "2.4GHz Wireless + Bluetooth 5.2",
+                            "Wireless Range": "Up to 15 meters",
+                            "Weight": "320g",
+                            "Microphone Type": "Detachable Noise‑Cancelling Boom Mic",
+                            "Surround Sound": "Virtual 7.1 Spatial Audio",
+                            "Materials": "Aluminum Frame + Memory Foam Cushions"
+                        }
+                    },
+
+                    {
+                        "id": "galaxy-ultra-z-2024",
+                        "name": "Galaxy Ultra Z 2024",
+                        "price": 1099,
+                        "oldPrice": 1299,
+                        "discountPrice": 1099,
+                        "discountPercent": 15,
+                        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuD_6zU0zp_MM_5MZ-oKBYmY7_zymvSrK9HkuO138iJX8Ve6e35vUQw2FHMcrHF88Im2brwb11kUOowN3MD6BuUQ9tlxABU7Tu03tZ8QVz7iPlYZFBJQIhS7llwOUvFia_WpiqoJac3hkuB5oMgbE8K9315akc_cAHVLlV7KKiEuwj07tbnFE-pWOmfpZCh_gSLnd7FDIiY1gDLuPucqfLKaT9N-RUu_GKF3fFev-sn2QuMU30VsUvGRM2Tbaq17ncLKDpt5oq8",
+                        "description": "High-end smartphone with triple camera system",
+                        "inStock": true,
+                        "category": "smartphones",
+                        "rating": 4.9,
+                        "count": 5,
+                        "countInBasket": 0,
+                        "createdAt": "2024-01-02",
+                        "updatedAt": "2024-01-02",
+                        "reviews": [
+                            {
+                                "id": "1",
+                                "title": "Camera is unreal",
+                                "text": "The zoom is absolutely wild. Night mode looks like daylight.",
+                                "name": "Liam P.",
+                                "isverified": true,
+                                "date": "5 days ago"
+                            },
+                            {
+                                "id": "2",
+                                "title": "Fast but hot",
+                                "text": "Performance is top-tier, but it gets warm during long gaming sessions.",
+                                "name": "Nora S.",
+                                "isverified": false,
+                                "date": "2 weeks ago"
+                            }
+                        ],
+                        "technicalSpecifications": {
+                            "Display": "6.9-inch Dynamic AMOLED 2X, 3200×1440, 120Hz",
+                            "Processor": "Snapdragon X Elite Gen 2",
+                            "RAM": "12GB LPDDR5X",
+                            "Storage": "256GB UFS 4.0",
+                            "Rear Cameras": "200MP + 50MP Ultra-Wide + 10MP Periscope",
+                            "Front Camera": "32MP Autofocus",
+                            "Battery": "5100mAh",
+                            "Charging": "45W Wired, 25W Wireless",
+                            "Connectivity": "5G, Wi‑Fi 7, Bluetooth 5.3, NFC",
+                            "Water Resistance": "IP68",
+                            "Materials": "Aluminum Armor Frame + Gorilla Glass Victus 3",
+                            "Weight": "218g"
+                        }
+                    },
+
+                    {
+                        "id": "clickmaster-x-carbon",
+                        "name": "ClickMaster X Carbon",
+                        "price": 89,
+                        "oldPrice": 149,
+                        "discountPrice": 89,
+                        "discountPercent": 40,
+                        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuC-_UIW6VI_wJLcDKUtauTNP6vRVrz46_GGRuVWRsOhEHCFC7jVvODax6tjG_tR_1WsBLl4IMmPgD9lmzlwGMcvzu9KQSHeMhAQiwSRmVvrCF2QFavPIrl_Z5j6ebz_Gx8x9zsFZpE7YZQTGBAawddzUWilwViGBdPk78dA2PDmYK44DAYL_mhkA_xER_wjg8OFF0-9BRAzIAX7oREp-FJ_A6AoBl5pyHHGCuh-bkFOZMW14ozGBvKI2OveZTMvwUMVuEXFQQI",
+                        "description": "Premium mechanical keyboard with RGB lighting",
+                        "inStock": true,
+                        "category": "components",
+                        "rating": 4.7,
+                        "count": 28,
+                        "countInBasket": 0,
+                        "createdAt": "2024-01-03",
+                        "updatedAt": "2024-01-03",
+                        "reviews": [
+                            {
+                                "id": "1",
+                                "title": "Perfect for typing",
+                                "text": "Switches feel amazing. The sound is satisfying but not too loud.",
+                                "name": "Ethan V.",
+                                "isverified": true,
+                                "date": "3 days ago"
+                            },
+                            {
+                                "id": "2",
+                                "title": "RGB is 🔥",
+                                "text": "Lighting effects are smooth and bright. Looks great on my desk.",
+                                "name": "Mila R.",
+                                "isverified": true,
+                                "date": "1 week ago"
+                            },
+                            {
+                                "id": "3",
+                                "title": "A bit heavy",
+                                "text": "Build quality is excellent, but it's heavier than expected.",
+                                "name": "Oliver T.",
+                                "isverified": false,
+                                "date": "2 weeks ago"
+                            }
+                        ],
+                        "technicalSpecifications": {
+                            "Switch Type": "Hot‑swappable Mechanical (Red, Brown, Blue options)",
+                            "Key Rollover": "NKRO with Anti‑Ghosting",
+                            "Backlight": "Per‑Key RGB with 18 Effects",
+                            "Frame Material": "Carbon Fiber + Aluminum Baseplate",
+                            "Keycaps": "Double‑Shot PBT",
+                            "Polling Rate": "1000Hz",
+                            "Connectivity": "USB‑C Detachable Cable",
+                            "Cable Type": "Braided Nylon 1.8m",
+                            "Weight": "980g",
+                            "Software Support": "Macro Editor + RGB Customization",
+                            "Noise Dampening": "Integrated Silicone Pad",
+                            "Lifespan": "50 Million Keystrokes"
+                        }
+                    },
+
+                    {
+                        "id": "titan-watch-s3",
+                        "name": "Titan Watch S3",
+                        "price": 359,
+                        "oldPrice": 399,
+                        "discountPrice": 359,
+                        "discountPercent": 10,
+                        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDwRCmEQK7xXR1w6KYUBE-Bvc1uSoAgDc7nYZaef8JBfOn0W94vouuUybj7wZOPhX2_csJoZNNHUY_gOyDJsaPW7fVruY9OaUXGiF6iWSy4zve1N_6idNYP7m1RTeE1mLhapWGNkL_30YZTtmx028oLBXXJxniwuOkzpE_ireTaKOx7HGDuyFUTUHhtGag7px4LsVvKjGwvbo345RLh6_q-5Lxn_vtnXt6l57LFZy8msqV5JeYBVW1Zfa8h0MJc8oGnTag5_4Y",
+                        "description": "State-of-the-art smartwatch with curved display",
+                        "inStock": true,
+                        "category": "wearables",
+                        "rating": 4.6,
+                        "count": 45,
+                        "countInBasket": 0,
+                        "createdAt": "2024-01-04",
+                        "updatedAt": "2024-01-04",
+                        "reviews": [],
+                        "technicalSpecifications": {
+                            "Display": "1.9-inch Curved AMOLED, 420×502",
+                            "Processor": "Titan S3 BioCore Chip",
+                            "RAM": "2GB",
+                            "Storage": "32GB Internal",
+                            "Battery Life": "Up to 4 Days",
+                            "Charging": "Magnetic Fast Charging (0–80% in 40 min)",
+                            "Sensors": "Heart Rate, SpO2, ECG, Skin Temp, Accelerometer",
+                            "Water Resistance": "5ATM",
+                            "Connectivity": "Bluetooth 5.3, Wi‑Fi, NFC",
+                            "GPS": "Dual‑Band L1+L5",
+                            "Materials": "Stainless Steel + Sapphire Glass",
+                            "Weight": "46g"
+                        }
+                    },
+
+                    {
+                        "id": "aerobook-x15",
+                        "name": "AeroBook X15",
+                        "price": 899,
+                        "oldPrice": 1199,
+                        "discountPrice": 899,
+                        "discountPercent": 25,
+                        "imageUrl": "https://example.com/products/aerobook-x15.png",
+                        "description": "Lightweight laptop with 15-inch display and long battery life.",
+                        "inStock": true,
+                        "category": "laptops",
+                        "rating": 4.5,
+                        "count": 9,
+                        "countInBasket": 0,
+                        "createdAt": "2024-01-05",
+                        "updatedAt": "2024-01-05",
+                        "reviews": [
+                            {
+                                "id": "1",
+                                "title": "Great for work",
+                                "text": "Battery lasts the whole day. Perfect for travel.",
+                                "name": "Daniel H.",
+                                "isverified": true,
+                                "date": "4 days ago"
+                            }
+                        ],
+                        "technicalSpecifications": {
+                            "Display": "15.6-inch IPS, 1920×1080, 144Hz",
+                            "Processor": "Intel Core i7‑13700H",
+                            "RAM": "16GB DDR5",
+                            "Storage": "1TB NVMe SSD",
+                            "GPU": "Intel Arc Integrated Graphics",
+                            "Battery": "82Wh (Up to 12 Hours)",
+                            "Charging": "100W USB‑C Fast Charging",
+                            "Connectivity": "Wi‑Fi 6E, Bluetooth 5.3",
+                            "Ports": "2× USB‑C, 2× USB‑A, HDMI 2.1, Audio Jack",
+                            "Keyboard": "Backlit Scissor‑Switch",
+                            "Weight": "1.65kg",
+                            "Materials": "Aluminum Unibody"
+                        }
                     },
                     {
-                        "id": "2",
-                        "title": "Comfy for Long Sessions",
-                        "text": "Super lightweight and the ear cups don't get hot. Battery life easily lasts my entire weekend gaming sessions.",
-                        "name": "Sarah M.",
-                        "isverified": true,
-                        "date": "1 week ago"
+                        "id": "hypersound-bar-360",
+                        "name": "HyperSound Bar 360",
+                        "price": 149,
+                        "oldPrice": 249,
+                        "discountPrice": 149,
+                        "discountPercent": 40,
+                        "imageUrl": "https://example.com/products/hypersound-360.png",
+                        "description": "Immersive soundbar with 360° audio and deep bass.",
+                        "inStock": true,
+                        "category": "audio",
+                        "rating": 4.4,
+                        "count": 18,
+                        "countInBasket": 0,
+                        "createdAt": "2024-01-06",
+                        "updatedAt": "2024-01-06",
+                        "reviews": [
+                            {
+                                "id": "1",
+                                "title": "Bass is crazy",
+                                "text": "Shakes the whole room. Movies feel cinematic now.",
+                                "name": "Kevin J.",
+                                "isverified": true,
+                                "date": "1 week ago"
+                            },
+                            {
+                                "id": "2",
+                                "title": "Good but loud",
+                                "text": "Even at low volume it's powerful. Not ideal for apartments.",
+                                "name": "Emma W.",
+                                "isverified": false,
+                                "date": "3 weeks ago"
+                            }
+                        ],
+                        "technicalSpecifications": {
+                            "Audio Channels": "3.1 Surround",
+                            "Peak Power": "280W",
+                            "Frequency Response": "40Hz – 20kHz",
+                            "Wireless Subwoofer": "Included",
+                            "Connectivity": "Bluetooth 5.1, HDMI ARC, Optical",
+                            "Supported Codecs": "Dolby Digital, DTS Virtual:X",
+                            "Drivers": "Dual Full‑Range + Dedicated Woofer",
+                            "Controls": "Touch Panel + Remote",
+                            "Dimensions": "920 × 90 × 70 mm",
+                            "Weight": "3.2kg",
+                            "Materials": "ABS + Metal Grill",
+                            "Wall Mount": "Supported"
+                        }
                     },
+
                     {
-                        "id": "3",
-                        "title": "Mic clarity is insane",
-                        "text": "My teammates noticed the difference immediately. It sounds like I'm using a studio microphone. Worth every penny.",
-                        "name": "Alex K.",
-                        "isverified": true,
-                        "date": "2 weeks ago"
+                        "id": "rtx-5090",
+                        "name": "Quantum GPU RTX 5090",
+                        "price": 1499,
+                        "oldPrice": 1799,
+                        "discountPrice": 1499,
+                        "discountPercent": 17,
+                        "imageUrl": "https://example.com/products/rtx-5090.png",
+                        "description": "Next‑gen GPU with ray tracing and AI acceleration.",
+                        "inStock": false,
+                        "category": "components",
+                        "rating": 4.9,
+                        "count": 0,
+                        "countInBasket": 0,
+                        "createdAt": "2024-01-07",
+                        "updatedAt": "2024-01-07",
+                        "reviews": [
+                            {
+                                "id": "1",
+                                "title": "Monster performance",
+                                "text": "Runs everything at 4K 120fps without breaking a sweat.",
+                                "name": "Victor L.",
+                                "isverified": true,
+                                "date": "6 days ago"
+                            },
+                            {
+                                "id": "2",
+                                "title": "Too expensive",
+                                "text": "Performance is insane, but the price is painful.",
+                                "name": "Sofia A.",
+                                "isverified": false,
+                                "date": "2 weeks ago"
+                            },
+                            {
+                                "id": "3",
+                                "title": "Out of stock everywhere",
+                                "text": "Tried to buy it for a month. Always sold out.",
+                                "name": "Mark T.",
+                                "isverified": true,
+                                "date": "3 weeks ago"
+                            }
+                        ],
+                        "technicalSpecifications": {
+                            "Architecture": "Ada‑Next Xtreme",
+                            "CUDA Cores": "20480",
+                            "Base Clock": "2.4GHz",
+                            "Boost Clock": "2.9GHz",
+                            "VRAM": "32GB GDDR7",
+                            "Memory Bandwidth": "1.8TB/s",
+                            "TDP": "420W",
+                            "Recommended PSU": "850W Gold",
+                            "Ray Tracing Cores": "4th Gen",
+                            "Tensor Cores": "5th Gen",
+                            "Outputs": "3× DisplayPort 2.1, 1× HDMI 2.1",
+                            "Cooling": "Triple‑Fan Vapor Chamber"
+                        }
                     },
+
                     {
-                        "id": "4",
-                        "title": "Great Build Quality",
-                        "text": "Solid construction, premium feel, and the headband is super comfortable. Easily the best headset I've owned.",
-                        "name": "Michael R.",
-                        "isverified": true,
-                        "date": "3 weeks ago"
+                        "id": "nebula-vr-pro",
+                        "name": "Nebula VR Pro",
+                        "price": 499,
+                        "oldPrice": 699,
+                        "discountPrice": 499,
+                        "discountPercent": 29,
+                        "imageUrl": "https://example.com/products/nebula-vr-pro.png",
+                        "description": "High‑resolution VR headset with 120Hz display.",
+                        "inStock": true,
+                        "category": "wearables",
+                        "rating": 4.6,
+                        "count": 14,
+                        "countInBasket": 0,
+                        "createdAt": "2024-01-08",
+                        "updatedAt": "2024-01-08",
+                        "reviews": [
+                            {
+                                "id": "1",
+                                "title": "Insane immersion",
+                                "text": "The 120Hz display makes everything feel incredibly smooth. Zero motion sickness.",
+                                "name": "Lucas P.",
+                                "isverified": true,
+                                "date": "1 week ago"
+                            },
+                            {
+                                "id": "2",
+                                "title": "Heavy after an hour",
+                                "text": "Comfort is good, but after long sessions it presses on the forehead.",
+                                "name": "Anna K.",
+                                "isverified": false,
+                                "date": "2 weeks ago"
+                            }
+                        ],
+                        "technicalSpecifications": {
+                            "Display Resolution": "2160 × 2160 per eye",
+                            "Refresh Rate": "120Hz",
+                            "Field of View": "110°",
+                            "Tracking": "Inside‑Out 6DoF",
+                            "Processor": "XR Fusion Engine",
+                            "RAM": "8GB",
+                            "Storage": "128GB Internal",
+                            "Connectivity": "Wi‑Fi 6E, Bluetooth 5.3, USB‑C",
+                            "Weight": "610g",
+                            "Audio": "Built‑in Spatial Speakers",
+                            "Strap Type": "Balanced Halo Strap",
+                            "Sensors": "Gyroscope, Accelerometer, Proximity Sensor"
+                        }
+                    },
+
+                    {
+                        "id": "stormcharge-40k",
+                        "name": "StormCharge PowerBank 40K",
+                        "price": 59,
+                        "oldPrice": 89,
+                        "discountPrice": 59,
+                        "discountPercent": 34,
+                        "imageUrl": "https://example.com/products/stormcharge-40k.png",
+                        "description": "Ultra‑capacity powerbank with fast charging.",
+                        "inStock": true,
+                        "category": "accessories",
+                        "rating": 4.3,
+                        "count": 33,
+                        "countInBasket": 0,
+                        "createdAt": "2024-01-09",
+                        "updatedAt": "2024-01-09",
+                        "reviews": [
+                            {
+                                "id": "1",
+                                "title": "Lasts forever",
+                                "text": "Charged my phone 6 times and still had juice left.",
+                                "name": "Henry S.",
+                                "isverified": true,
+                                "date": "4 days ago"
+                            }
+                        ],
+                        "technicalSpecifications": {
+                            "Capacity": "40,000mAh",
+                            "Input Ports": "USB‑C PD 60W",
+                            "Output Ports": "2× USB‑A QC 3.0, 1× USB‑C PD 60W",
+                            "Charging Speed": "Up to 60W",
+                            "Battery Type": "Li‑ion High Density",
+                            "Cycle Life": "800+ Cycles",
+                            "Safety": "Overcharge, Overheat, Short‑Circuit Protection",
+                            "Weight": "780g",
+                            "Dimensions": "155 × 75 × 32 mm",
+                            "LED Indicators": "4‑Level Battery Display",
+                            "Material": "Impact‑Resistant ABS",
+                            "Compatibility": "Phones, Tablets, Laptops"
+                        }
+                    },
+
+                    {
+                        "id": "airbeats-mini",
+                        "name": "AirBeats Mini Pods",
+                        "price": 79,
+                        "oldPrice": 129,
+                        "discountPrice": 79,
+                        "discountPercent": 39,
+                        "imageUrl": "https://example.com/products/airbeats-mini.png",
+                        "description": "Compact wireless earbuds with noise isolation.",
+                        "inStock": true,
+                        "category": "audio",
+                        "rating": 4.2,
+                        "count": 21,
+                        "countInBasket": 0,
+                        "createdAt": "2024-01-10",
+                        "updatedAt": "2024-01-10",
+                        "reviews": [
+                            {
+                                "id": "1",
+                                "title": "Good for the price",
+                                "text": "Not the best bass, but for this price they’re amazing.",
+                                "name": "Julia F.",
+                                "isverified": true,
+                                "date": "1 week ago"
+                            },
+                            {
+                                "id": "2",
+                                "title": "Case feels cheap",
+                                "text": "Earbuds are great, but the charging case feels flimsy.",
+                                "name": "Tom R.",
+                                "isverified": false,
+                                "date": "3 weeks ago"
+                            }
+                        ],
+                        "technicalSpecifications": {
+                            "Driver Size": "8mm Titanium",
+                            "Frequency Response": "20Hz – 20kHz",
+                            "Battery Life": "6 Hours (Earbuds) + 24 Hours (Case)",
+                            "Charging": "USB‑C Fast Charge",
+                            "Bluetooth Version": "Bluetooth 5.3",
+                            "Noise Isolation": "Passive Noise Isolation",
+                            "Water Resistance": "IPX4",
+                            "Weight": "4.2g per earbud",
+                            "Microphones": "Dual ENC Mics",
+                            "Controls": "Touch Gestures",
+                            "Latency Mode": "Low‑Latency Gaming Mode",
+                            "Case Material": "Matte ABS Plastic"
+                        }
                     }
-                ],
-                "technicalSpecifications": {
-                    "Driver Diameter": "50mm Neodymium",
-                    "Frequency Response": "10Hz – 40kHz",
-                    "Impedance": "32Ω ± 15%",
-                    "Sensitivity": "108dB ± 3dB",
-                    "Battery Life": "Up to 30 Hours",
-                    "Charging Time": "2 Hours (USB‑C Fast Charge)",
-                    "Wireless Technology": "2.4GHz Wireless + Bluetooth 5.2",
-                    "Wireless Range": "Up to 15 meters",
-                    "Weight": "320g",
-                    "Microphone Type": "Detachable Noise‑Cancelling Boom Mic",
-                    "Surround Sound": "Virtual 7.1 Spatial Audio",
-                    "Materials": "Aluminum Frame + Memory Foam Cushions"
-                }
+                ]
             },
 
-            {
-                "id": "galaxy-ultra-z-2024",
-                "name": "Galaxy Ultra Z 2024",
-                "price": 1099,
-                "oldPrice": 1299,
-                "discountPrice": 1099,
-                "discountPercent": 15,
-                "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuD_6zU0zp_MM_5MZ-oKBYmY7_zymvSrK9HkuO138iJX8Ve6e35vUQw2FHMcrHF88Im2brwb11kUOowN3MD6BuUQ9tlxABU7Tu03tZ8QVz7iPlYZFBJQIhS7llwOUvFia_WpiqoJac3hkuB5oMgbE8K9315akc_cAHVLlV7KKiEuwj07tbnFE-pWOmfpZCh_gSLnd7FDIiY1gDLuPucqfLKaT9N-RUu_GKF3fFev-sn2QuMU30VsUvGRM2Tbaq17ncLKDpt5oq8",
-                "description": "High-end smartphone with triple camera system",
-                "inStock": true,
-                "category": "smartphones",
-                "rating": 4.9,
-                "count": 5,
-                "countInBasket": 0,
-                "createdAt": "2024-01-02",
-                "updatedAt": "2024-01-02",
-                "reviews": [
-                    {
-                        "id": "1",
-                        "title": "Camera is unreal",
-                        "text": "The zoom is absolutely wild. Night mode looks like daylight.",
-                        "name": "Liam P.",
-                        "isverified": true,
-                        "date": "5 days ago"
-                    },
-                    {
-                        "id": "2",
-                        "title": "Fast but hot",
-                        "text": "Performance is top-tier, but it gets warm during long gaming sessions.",
-                        "name": "Nora S.",
-                        "isverified": false,
-                        "date": "2 weeks ago"
+            "popular": [
+                {
+                    "id": "titan-GPU-X-100",
+                    "name": "Titan GPU X-100",
+                    "price": 799,
+                    "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuC7Nw--5Ten2YrL7AVT8Sr6WSp2copjwTiCmisR6hZJVpzdRonSwaTbFZkCdZ9cf-yTJTjUSkrGV_dhA2GHe4RxArOxKPwyhCKXLkXVnBJucb--rYjjXkhBV8DWlyMlFihXGzbdvkeke-J6fZqOIF9pQXAEyZNUvFyyHd8acdhbgngt6vqZHJC1UPal8BafAyUnXkSvwHgKGEqBmxoKxKM2lQxkq62dKJfduuSgGecPUDZYU9Sr-RZnYm0XFwcpJeIFWNYuos4",
+                    "description": "Modern desktop GPU with golden contacts",
+                    "inStock": true,
+                    "category": "components",
+                    "rating": 4.7,
+                    "count": 12,
+                    "createdAt": "2024-01-01",
+                    "updatedAt": "2024-01-01",
+                    "additionalInfo": {
+                        "gallery": [
+                            "https://lh3.googleusercontent.com/aida-public/AB6AXuC7Nw--5Ten2YrL7AVT8Sr6WSp2copjwTiCmisR6hZJVpzdRonSwaTbFZkCdZ9cf-yTJTjUSkrGV_dhA2GHe4RxArOxKPwyhCKXLkXVnBJucb--rYjjXkhBV8DWlyMlFihXGzbdvkeke-J6fZqOIF9pQXAEyZNUvFyyHd8acdhbgngt6vqZHJC1UPal8BafAyUnXkSvwHgKGEqBmxoKxKM2lQxkq62dKJfduuSgGecPUDZYU9Sr-RZnYm0XFwcpJeIFWNYuos4",
+                            "/gallery/gpu-x100-1.jpg",
+                            "/gallery/gpu-x100-2.jpg"
+                        ],
+                        "colors": ["#000000", "#FFD700", "#2B2B2B"],
+                        "series": "pro",
+                        "reviewsCount": 214
                     }
-                ],
-                "technicalSpecifications": {
-                    "Display": "6.9-inch Dynamic AMOLED 2X, 3200×1440, 120Hz",
-                    "Processor": "Snapdragon X Elite Gen 2",
-                    "RAM": "12GB LPDDR5X",
-                    "Storage": "256GB UFS 4.0",
-                    "Rear Cameras": "200MP + 50MP Ultra-Wide + 10MP Periscope",
-                    "Front Camera": "32MP Autofocus",
-                    "Battery": "5100mAh",
-                    "Charging": "45W Wired, 25W Wireless",
-                    "Connectivity": "5G, Wi‑Fi 7, Bluetooth 5.3, NFC",
-                    "Water Resistance": "IP68",
-                    "Materials": "Aluminum Armor Frame + Gorilla Glass Victus 3",
-                    "Weight": "218g"
-                }
-            },
-
-            {
-                "id": "clickmaster-x-carbon",
-                "name": "ClickMaster X Carbon",
-                "price": 89,
-                "oldPrice": 149,
-                "discountPrice": 89,
-                "discountPercent": 40,
-                "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuC-_UIW6VI_wJLcDKUtauTNP6vRVrz46_GGRuVWRsOhEHCFC7jVvODax6tjG_tR_1WsBLl4IMmPgD9lmzlwGMcvzu9KQSHeMhAQiwSRmVvrCF2QFavPIrl_Z5j6ebz_Gx8x9zsFZpE7YZQTGBAawddzUWilwViGBdPk78dA2PDmYK44DAYL_mhkA_xER_wjg8OFF0-9BRAzIAX7oREp-FJ_A6AoBl5pyHHGCuh-bkFOZMW14ozGBvKI2OveZTMvwUMVuEXFQQI",
-                "description": "Premium mechanical keyboard with RGB lighting",
-                "inStock": true,
-                "category": "components",
-                "rating": 4.7,
-                "count": 28,
-                "countInBasket": 0,
-                "createdAt": "2024-01-03",
-                "updatedAt": "2024-01-03",
-                "reviews": [
-                    {
-                        "id": "1",
-                        "title": "Perfect for typing",
-                        "text": "Switches feel amazing. The sound is satisfying but not too loud.",
-                        "name": "Ethan V.",
-                        "isverified": true,
-                        "date": "3 days ago"
-                    },
-                    {
-                        "id": "2",
-                        "title": "RGB is 🔥",
-                        "text": "Lighting effects are smooth and bright. Looks great on my desk.",
-                        "name": "Mila R.",
-                        "isverified": true,
-                        "date": "1 week ago"
-                    },
-                    {
-                        "id": "3",
-                        "title": "A bit heavy",
-                        "text": "Build quality is excellent, but it's heavier than expected.",
-                        "name": "Oliver T.",
-                        "isverified": false,
-                        "date": "2 weeks ago"
+                },
+                {
+                    "id": "pro-book-platinum",
+                    "name": "Pro Book Platinum",
+                    "price": 1599,
+                    "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBHVGqx80cpXCLasu1ESb8HOO2IK9SGPhKaYwiFsVgTEAbQWauMs6PYZXNGnpQDpZF2nGpsTapghrqrRvje67o2-Y9zA2bohzYiGLDwuhJv-Z5oChJyoHSbukx5RDFUWhM8stF0uQK9u8Ve1iFWq_6jqjQBn0lHsoYO6s_CypfDKVTqCPpvEfIPDkr8VkpgFIFbLXrtK95HLCT5Ihx34Eo4tAjJ5_1nRupGX8BNfzbOoMuL2MmPSIqIrcS6EpWzERyu4HG6OHM",
+                    "description": "Ultrathin premium laptop with silver chassis",
+                    "inStock": true,
+                    "category": "laptops",
+                    "rating": 4.8,
+                    "count": 7,
+                    "createdAt": "2024-01-02",
+                    "updatedAt": "2024-01-02",
+                    "additionalInfo": {
+                        "gallery": [
+                            "https://lh3.googleusercontent.com/aida-public/AB6AXuBHVGqx80cpXCLasu1ESb8HOO2IK9SGPhKaYwiFsVgTEAbQWauMs6PYZXNGnpQDpZF2nGpsTapghrqrRvje67o2-Y9zA2bohzYiGLDwuhJv-Z5oChJyoHSbukx5RDFUWhM8stF0uQK9u8Ve1iFWq_6jqjQBn0lHsoYO6s_CypfDKVTqCPpvEfIPDkr8VkpgFIFbLXrtK95HLCT5Ihx34Eo4tAjJ5_1nRupGX8BNfzbOoMuL2MmPSIqIrcS6EpWzERyu4HG6OHM",
+                            "/gallery/probook-1.jpg",
+                            "/gallery/probook-2.jpg"
+                        ],
+                        "colors": ["#C0C0C0", "#000000", "#1A1A1A"],
+                        "series": "premium",
+                        "reviewsCount": 312
                     }
-                ],
-                "technicalSpecifications": {
-                    "Switch Type": "Hot‑swappable Mechanical (Red, Brown, Blue options)",
-                    "Key Rollover": "NKRO with Anti‑Ghosting",
-                    "Backlight": "Per‑Key RGB with 18 Effects",
-                    "Frame Material": "Carbon Fiber + Aluminum Baseplate",
-                    "Keycaps": "Double‑Shot PBT",
-                    "Polling Rate": "1000Hz",
-                    "Connectivity": "USB‑C Detachable Cable",
-                    "Cable Type": "Braided Nylon 1.8m",
-                    "Weight": "980g",
-                    "Software Support": "Macro Editor + RGB Customization",
-                    "Noise Dampening": "Integrated Silicone Pad",
-                    "Lifespan": "50 Million Keystrokes"
-                }
-            },
-
-            {
-                "id": "titan-watch-s3",
-                "name": "Titan Watch S3",
-                "price": 359,
-                "oldPrice": 399,
-                "discountPrice": 359,
-                "discountPercent": 10,
-                "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDwRCmEQK7xXR1w6KYUBE-Bvc1uSoAgDc7nYZaef8JBfOn0W94vouuUybj7wZOPhX2_csJoZNNHUY_gOyDJsaPW7fVruY9OaUXGiF6iWSy4zve1N_6idNYP7m1RTeE1mLhapWGNkL_30YZTtmx028oLBXXJxniwuOkzpE_ireTaKOx7HGDuyFUTUHhtGag7px4LsVvKjGwvbo345RLh6_q-5Lxn_vtnXt6l57LFZy8msqV5JeYBVW1Zfa8h0MJc8oGnTag5_4Y",
-                "description": "State-of-the-art smartwatch with curved display",
-                "inStock": true,
-                "category": "wearables",
-                "rating": 4.6,
-                "count": 45,
-                "countInBasket": 0,
-                "createdAt": "2024-01-04",
-                "updatedAt": "2024-01-04",
-                "reviews": [],
-                "technicalSpecifications": {
-                    "Display": "1.9-inch Curved AMOLED, 420×502",
-                    "Processor": "Titan S3 BioCore Chip",
-                    "RAM": "2GB",
-                    "Storage": "32GB Internal",
-                    "Battery Life": "Up to 4 Days",
-                    "Charging": "Magnetic Fast Charging (0–80% in 40 min)",
-                    "Sensors": "Heart Rate, SpO2, ECG, Skin Temp, Accelerometer",
-                    "Water Resistance": "5ATM",
-                    "Connectivity": "Bluetooth 5.3, Wi‑Fi, NFC",
-                    "GPS": "Dual‑Band L1+L5",
-                    "Materials": "Stainless Steel + Sapphire Glass",
-                    "Weight": "46g"
-                }
-            },
-
-            {
-                "id": "aerobook-x15",
-                "name": "AeroBook X15",
-                "price": 899,
-                "oldPrice": 1199,
-                "discountPrice": 899,
-                "discountPercent": 25,
-                "imageUrl": "https://example.com/products/aerobook-x15.png",
-                "description": "Lightweight laptop with 15-inch display and long battery life.",
-                "inStock": true,
-                "category": "laptops",
-                "rating": 4.5,
-                "count": 9,
-                "countInBasket": 0,
-                "createdAt": "2024-01-05",
-                "updatedAt": "2024-01-05",
-                "reviews": [
-                    {
-                        "id": "1",
-                        "title": "Great for work",
-                        "text": "Battery lasts the whole day. Perfect for travel.",
-                        "name": "Daniel H.",
-                        "isverified": true,
-                        "date": "4 days ago"
+                },
+                {
+                    "id": "vision-VR-elite",
+                    "name": "Vision VR Elite",
+                    "price": 549,
+                    "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAZanvuW4s-p3qLcZm1tB8L9ezHHM6wDRjN1J-Iaz9eF1SkhSiX7yYhDOujebp186AJHfI2d39-CRmd_3gHIvC3KG4wxyonyXLMRwJl22pOwvjiw8ub8Vn-N57XuwaKu1ySbH33NP_vNqnbDWkioGxUylk_74v9lr0Lkj7kXKGOuCmDHGmQRli4EnENdDv67rlx0Q7LSiOC1trh06usPUwc8D9P_JFyOD-cT8Cl_EOTwMDlx36hFXuLCEl_yP9pvBQT6JEFANc",
+                    "description": "Minimalist VR headset with blue glow",
+                    "inStock": true,
+                    "category": "wearables",
+                    "rating": 4.6,
+                    "count": 15,
+                    "createdAt": "2024-01-03",
+                    "updatedAt": "2024-01-03",
+                    "additionalInfo": {
+                        "gallery": [
+                            "https://lh3.googleusercontent.com/aida-public/AB6AXuAZanvuW4s-p3qLcZm1tB8L9ezHHM6wDRjN1J-Iaz9eF1SkhSiX7yYhDOujebp186AJHfI2d39-CRmd_3gHIvC3KG4wxyonyXLMRwJl22pOwvjiw8ub8Vn-N57XuwaKu1ySbH33NP_vNqnbDWkioGxUylk_74v9lr0Lkj7kXKGOuCmDHGmQRli4EnENdDv67rlx0Q7LSiOC1trh06usPUwc8D9P_JFyOD-cT8Cl_EOTwMDlx36hFXuLCEl_yP9pvBQT6JEFANc",
+                            "/gallery/vr-elite-1.jpg",
+                            "/gallery/vr-elite-2.jpg"
+                        ],
+                        "colors": ["#1E90FF", "#000000", "#2B2B2B"],
+                        "series": "pro",
+                        "reviewsCount": 189
                     }
-                ],
-                "technicalSpecifications": {
-                    "Display": "15.6-inch IPS, 1920×1080, 144Hz",
-                    "Processor": "Intel Core i7‑13700H",
-                    "RAM": "16GB DDR5",
-                    "Storage": "1TB NVMe SSD",
-                    "GPU": "Intel Arc Integrated Graphics",
-                    "Battery": "82Wh (Up to 12 Hours)",
-                    "Charging": "100W USB‑C Fast Charging",
-                    "Connectivity": "Wi‑Fi 6E, Bluetooth 5.3",
-                    "Ports": "2× USB‑C, 2× USB‑A, HDMI 2.1, Audio Jack",
-                    "Keyboard": "Backlit Scissor‑Switch",
-                    "Weight": "1.65kg",
-                    "Materials": "Aluminum Unibody"
-                }
-            },
-            {
-                "id": "hypersound-bar-360",
-                "name": "HyperSound Bar 360",
-                "price": 149,
-                "oldPrice": 249,
-                "discountPrice": 149,
-                "discountPercent": 40,
-                "imageUrl": "https://example.com/products/hypersound-360.png",
-                "description": "Immersive soundbar with 360° audio and deep bass.",
-                "inStock": true,
-                "category": "audio",
-                "rating": 4.4,
-                "count": 18,
-                "countInBasket": 0,
-                "createdAt": "2024-01-06",
-                "updatedAt": "2024-01-06",
-                "reviews": [
-                    {
-                        "id": "1",
-                        "title": "Bass is crazy",
-                        "text": "Shakes the whole room. Movies feel cinematic now.",
-                        "name": "Kevin J.",
-                        "isverified": true,
-                        "date": "1 week ago"
-                    },
-                    {
-                        "id": "2",
-                        "title": "Good but loud",
-                        "text": "Even at low volume it's powerful. Not ideal for apartments.",
-                        "name": "Emma W.",
-                        "isverified": false,
-                        "date": "3 weeks ago"
+                },
+                {
+                    "id": "boomBox-mini-V3",
+                    "name": "BoomBox Mini V3",
+                    "price": 129,
+                    "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDpgY97Nt_tNndXRe6fzBz0sINhGO8VC1Ko4gvs35s38iNryDyroVaM6w_Ew5TOdh2tGCTldWr3k9G8XLBwkgq-xIkaPUwLiOR-UEJ8-0s-BJHfu4E7oDmkrYLpbWjmMLfowU3v8CxLZbAQWFESabzkk53LRQ6bmH8D5wwgwTP6B1hSTrbb19IWkQ_lOVPvDJ8-xa475pYikIwyBz57ESTCU_9OsrDTnac7OGjbM4zPByWWZJlpCwqtRapUL3r-9X3zu-n15P4",
+                    "description": "Compact portable bluetooth speaker cylindrical",
+                    "inStock": true,
+                    "category": "audio",
+                    "rating": 4.4,
+                    "count": 22,
+                    "createdAt": "2024-01-04",
+                    "updatedAt": "2024-01-04",
+                    "additionalInfo": {
+                        "gallery": [
+                            "https://lh3.googleusercontent.com/aida-public/AB6AXuDpgY97Nt_tNndXRe6fzBz0sINhGO8VC1Ko4gvs35s38iNryDyroVaM6w_Ew5TOdh2tGCTldWr3k9G8XLBwkgq-xIkaPUwLiOR-UEJ8-0s-BJHfu4E7oDmkrYLpbWjmMLfowU3v8CxLZbAQWFESabzkk53LRQ6bmH8D5wwgwTP6B1hSTrbb19IWkQ_lOVPvDJ8-xa475pYikIwyBz57ESTCU_9OsrDTnac7OGjbM4zPByWWZJlpCwqtRapUL3r-9X3zu-n15P4",
+                            "/gallery/boombox-1.jpg",
+                            "/gallery/boombox-2.jpg"
+                        ],
+                        "colors": ["#000000", "#FF0000", "#1A1A1A"],
+                        "series": "basic",
+                        "reviewsCount": 142
                     }
-                ],
-                "technicalSpecifications": {
-                    "Audio Channels": "3.1 Surround",
-                    "Peak Power": "280W",
-                    "Frequency Response": "40Hz – 20kHz",
-                    "Wireless Subwoofer": "Included",
-                    "Connectivity": "Bluetooth 5.1, HDMI ARC, Optical",
-                    "Supported Codecs": "Dolby Digital, DTS Virtual:X",
-                    "Drivers": "Dual Full‑Range + Dedicated Woofer",
-                    "Controls": "Touch Panel + Remote",
-                    "Dimensions": "920 × 90 × 70 mm",
-                    "Weight": "3.2kg",
-                    "Materials": "ABS + Metal Grill",
-                    "Wall Mount": "Supported"
-                }
-            },
-
-            {
-                "id": "rtx-5090",
-                "name": "Quantum GPU RTX 5090",
-                "price": 1499,
-                "oldPrice": 1799,
-                "discountPrice": 1499,
-                "discountPercent": 17,
-                "imageUrl": "https://example.com/products/rtx-5090.png",
-                "description": "Next‑gen GPU with ray tracing and AI acceleration.",
-                "inStock": false,
-                "category": "components",
-                "rating": 4.9,
-                "count": 0,
-                "countInBasket": 0,
-                "createdAt": "2024-01-07",
-                "updatedAt": "2024-01-07",
-                "reviews": [
-                    {
-                        "id": "1",
-                        "title": "Monster performance",
-                        "text": "Runs everything at 4K 120fps without breaking a sweat.",
-                        "name": "Victor L.",
-                        "isverified": true,
-                        "date": "6 days ago"
-                    },
-                    {
-                        "id": "2",
-                        "title": "Too expensive",
-                        "text": "Performance is insane, but the price is painful.",
-                        "name": "Sofia A.",
-                        "isverified": false,
-                        "date": "2 weeks ago"
-                    },
-                    {
-                        "id": "3",
-                        "title": "Out of stock everywhere",
-                        "text": "Tried to buy it for a month. Always sold out.",
-                        "name": "Mark T.",
-                        "isverified": true,
-                        "date": "3 weeks ago"
+                },
+                {
+                    "id": "huawei=mate-pro-15",
+                    "name": "Huawei Mate Pro 15",
+                    "price": 1999.99,
+                    "imageUrl": "/HuaweiMate15Pro.png",
+                    "description": "A high-performance laptop for professionals.",
+                    "inStock": true,
+                    "category": "laptops",
+                    "rating": 4.5,
+                    "count": 10,
+                    "createdAt": "2023-08-01T10:00:00.000Z",
+                    "updatedAt": "2023-08-01T10:00:00.000Z",
+                    "additionalInfo": {
+                        "gallery": [
+                            "/HuaweiMate15Pro.png",
+                            "/gallery/huawei-1.jpg",
+                            "/gallery/huawei-2.jpg"
+                        ],
+                        "colors": ["#000000", "#C0C0C0", "#1A1A1A"],
+                        "series": "premium",
+                        "reviewsCount": 256
                     }
-                ],
-                "technicalSpecifications": {
-                    "Architecture": "Ada‑Next Xtreme",
-                    "CUDA Cores": "20480",
-                    "Base Clock": "2.4GHz",
-                    "Boost Clock": "2.9GHz",
-                    "VRAM": "32GB GDDR7",
-                    "Memory Bandwidth": "1.8TB/s",
-                    "TDP": "420W",
-                    "Recommended PSU": "850W Gold",
-                    "Ray Tracing Cores": "4th Gen",
-                    "Tensor Cores": "5th Gen",
-                    "Outputs": "3× DisplayPort 2.1, 1× HDMI 2.1",
-                    "Cooling": "Triple‑Fan Vapor Chamber"
-                }
-            },
-
-            {
-                "id": "nebula-vr-pro",
-                "name": "Nebula VR Pro",
-                "price": 499,
-                "oldPrice": 699,
-                "discountPrice": 499,
-                "discountPercent": 29,
-                "imageUrl": "https://example.com/products/nebula-vr-pro.png",
-                "description": "High‑resolution VR headset with 120Hz display.",
-                "inStock": true,
-                "category": "wearables",
-                "rating": 4.6,
-                "count": 14,
-                "countInBasket": 0,
-                "createdAt": "2024-01-08",
-                "updatedAt": "2024-01-08",
-                "reviews": [
-                    {
-                        "id": "1",
-                        "title": "Insane immersion",
-                        "text": "The 120Hz display makes everything feel incredibly smooth. Zero motion sickness.",
-                        "name": "Lucas P.",
-                        "isverified": true,
-                        "date": "1 week ago"
-                    },
-                    {
-                        "id": "2",
-                        "title": "Heavy after an hour",
-                        "text": "Comfort is good, but after long sessions it presses on the forehead.",
-                        "name": "Anna K.",
-                        "isverified": false,
-                        "date": "2 weeks ago"
+                },
+                {
+                    "id": "wireless-earbuds-X",
+                    "name": "Wireless Earbuds X",
+                    "price": 149.99,
+                    "imageUrl": "/images/wireless-earbuds-x.jpg",
+                    "description": "Wireless earbuds with great sound quality.",
+                    "inStock": true,
+                    "category": "headphones",
+                    "rating": 4.2,
+                    "count": 5,
+                    "createdAt": "2023-08-01T10:00:00.000Z",
+                    "updatedAt": "2023-08-01T10:00:00.000Z",
+                    "additionalInfo": {
+                        "gallery": [
+                            "/images/wireless-earbuds-x.jpg",
+                            "/gallery/earbuds-1.jpg",
+                            "/gallery/earbuds-2.jpg"
+                        ],
+                        "colors": ["#FFFFFF", "#000000"],
+                        "series": "basic",
+                        "reviewsCount": 87
                     }
-                ],
-                "technicalSpecifications": {
-                    "Display Resolution": "2160 × 2160 per eye",
-                    "Refresh Rate": "120Hz",
-                    "Field of View": "110°",
-                    "Tracking": "Inside‑Out 6DoF",
-                    "Processor": "XR Fusion Engine",
-                    "RAM": "8GB",
-                    "Storage": "128GB Internal",
-                    "Connectivity": "Wi‑Fi 6E, Bluetooth 5.3, USB‑C",
-                    "Weight": "610g",
-                    "Audio": "Built‑in Spatial Speakers",
-                    "Strap Type": "Balanced Halo Strap",
-                    "Sensors": "Gyroscope, Accelerometer, Proximity Sensor"
-                }
-            },
-
-            {
-                "id": "stormcharge-40k",
-                "name": "StormCharge PowerBank 40K",
-                "price": 59,
-                "oldPrice": 89,
-                "discountPrice": 59,
-                "discountPercent": 34,
-                "imageUrl": "https://example.com/products/stormcharge-40k.png",
-                "description": "Ultra‑capacity powerbank with fast charging.",
-                "inStock": true,
-                "category": "accessories",
-                "rating": 4.3,
-                "count": 33,
-                "countInBasket": 0,
-                "createdAt": "2024-01-09",
-                "updatedAt": "2024-01-09",
-                "reviews": [
-                    {
-                        "id": "1",
-                        "title": "Lasts forever",
-                        "text": "Charged my phone 6 times and still had juice left.",
-                        "name": "Henry S.",
-                        "isverified": true,
-                        "date": "4 days ago"
+                },
+                {
+                    "id": "smartphone-z",
+                    "name": "Smartphone Z",
+                    "price": 799.99,
+                    "imageUrl": "/images/smartphone-z.jpg",
+                    "description": "A powerful smartphone with advanced features.",
+                    "inStock": true,
+                    "category": "smartphones",
+                    "rating": 4.8,
+                    "count": 8,
+                    "createdAt": "2023-08-01T10:00:00.000Z",
+                    "updatedAt": "2023-08-01T10:00:00.000Z",
+                    "additionalInfo": {
+                        "gallery": [
+                            "/images/smartphone-z.jpg",
+                            "/gallery/smartphone-1.jpg",
+                            "/gallery/smartphone-2.jpg"
+                        ],
+                        "colors": ["#000000", "#1E90FF", "#C0C0C0"],
+                        "series": "pro",
+                        "reviewsCount": 421
                     }
-                ],
-                "technicalSpecifications": {
-                    "Capacity": "40,000mAh",
-                    "Input Ports": "USB‑C PD 60W",
-                    "Output Ports": "2× USB‑A QC 3.0, 1× USB‑C PD 60W",
-                    "Charging Speed": "Up to 60W",
-                    "Battery Type": "Li‑ion High Density",
-                    "Cycle Life": "800+ Cycles",
-                    "Safety": "Overcharge, Overheat, Short‑Circuit Protection",
-                    "Weight": "780g",
-                    "Dimensions": "155 × 75 × 32 mm",
-                    "LED Indicators": "4‑Level Battery Display",
-                    "Material": "Impact‑Resistant ABS",
-                    "Compatibility": "Phones, Tablets, Laptops"
-                }
-            },
-
-            {
-                "id": "airbeats-mini",
-                "name": "AirBeats Mini Pods",
-                "price": 79,
-                "oldPrice": 129,
-                "discountPrice": 79,
-                "discountPercent": 39,
-                "imageUrl": "https://example.com/products/airbeats-mini.png",
-                "description": "Compact wireless earbuds with noise isolation.",
-                "inStock": true,
-                "category": "audio",
-                "rating": 4.2,
-                "count": 21,
-                "countInBasket": 0,
-                "createdAt": "2024-01-10",
-                "updatedAt": "2024-01-10",
-                "reviews": [
-                    {
-                        "id": "1",
-                        "title": "Good for the price",
-                        "text": "Not the best bass, but for this price they’re amazing.",
-                        "name": "Julia F.",
-                        "isverified": true,
-                        "date": "1 week ago"
-                    },
-                    {
-                        "id": "2",
-                        "title": "Case feels cheap",
-                        "text": "Earbuds are great, but the charging case feels flimsy.",
-                        "name": "Tom R.",
-                        "isverified": false,
-                        "date": "3 weeks ago"
+                },
+                {
+                    "id": "4k-ultra-hd-tv",
+                    "name": "4K Ultra HD TV",
+                    "price": 1199.99,
+                    "imageUrl": "/images/4k-ultra-hd-tv.jpg",
+                    "description": "A stunning 4K TV with advanced features.",
+                    "inStock": true,
+                    "category": "tvs",
+                    "rating": 4.6,
+                    "count": 6,
+                    "createdAt": "2023-08-01T10:00:00.000Z",
+                    "updatedAt": "2023-08-01T10:00:00.000Z",
+                    "additionalInfo": {
+                        "gallery": [
+                            "/images/4k-ultra-hd-tv.jpg",
+                            "/gallery/tv-1.jpg",
+                            "/gallery/tv-2.jpg"
+                        ],
+                        "colors": ["#000000", "#2B2B2B"],
+                        "series": "premium",
+                        "reviewsCount": 198
                     }
-                ],
-                "technicalSpecifications": {
-                    "Driver Size": "8mm Titanium",
-                    "Frequency Response": "20Hz – 20kHz",
-                    "Battery Life": "6 Hours (Earbuds) + 24 Hours (Case)",
-                    "Charging": "USB‑C Fast Charge",
-                    "Bluetooth Version": "Bluetooth 5.3",
-                    "Noise Isolation": "Passive Noise Isolation",
-                    "Water Resistance": "IPX4",
-                    "Weight": "4.2g per earbud",
-                    "Microphones": "Dual ENC Mics",
-                    "Controls": "Touch Gestures",
-                    "Latency Mode": "Low‑Latency Gaming Mode",
-                    "Case Material": "Matte ABS Plastic"
+                },
+                {
+                    "id": "smartwatch-y",
+                    "name": "Smartwatch Y",
+                    "price": 299.99,
+                    "imageUrl": "/images/smartwatch-y.jpg",
+                    "description": "A stylish smartwatch with health tracking features.",
+                    "inStock": true,
+                    "category": "watches",
+                    "rating": 4.3,
+                    "count": 12,
+                    "createdAt": "2023-08-01T10:00:00.000Z",
+                    "updatedAt": "2023-08-01T10:00:00.000Z",
+                    "additionalInfo": {
+                        "gallery": [
+                            "/images/smartwatch-y.jpg",
+                            "/gallery/watch-1.jpg",
+                            "/gallery/watch-2.jpg"
+                        ],
+                        "colors": ["#000000", "#FFFFFF", "#1A1A1A"],
+                        "series": "basic",
+                        "reviewsCount": 144
+                    }
+                },
+                {
+                    "id": "gaming-laptop-g",
+                    "name": "Gaming Laptop G",
+                    "price": 2499.99,
+                    "imageUrl": "/images/gaming-laptop-g.jpg",
+                    "description": "A high-end gaming laptop with powerful graphics.",
+                    "inStock": false,
+                    "category": "laptops",
+                    "rating": 4.7,
+                    "count": 0,
+                    "createdAt": "2023-08-01T10:00:00.000Z",
+                    "updatedAt": "2023-08-01T10:00:00.000Z",
+                    "additionalInfo": {
+                        "gallery": [
+                            "/images/gaming-laptop-g.jpg",
+                            "/gallery/gaming-laptop-1.jpg",
+                            "/gallery/gaming-laptop-2.jpg"
+                        ],
+                        "colors": ["#000000", "#FF0000", "#2B2B2B"],
+                        "series": "ultra",
+                        "reviewsCount": 367
+                    }
+                },
+                {
+                    "id": "headphones-n",
+                    "name": "Noise-Cancelling Headphones N",
+                    "price": 299.99,
+                    "imageUrl": "/images/noise-cancelling-headphones-n.jpg",
+                    "description": "Headphones with active noise cancellation technology.",
+                    "inStock": true,
+                    "category": "headphones",
+                    "rating": 4.4,
+                    "count": 7,
+                    "createdAt": "2023-08-01T10:00:00.000Z",
+                    "updatedAt": "2023-08-01T10:00:00.000Z",
+                    "additionalInfo": {
+                        "gallery": [
+                            "/images/noise-cancelling-headphones-n.jpg",
+                            "/gallery/headphones-1.jpg",
+                            "/gallery/headphones-2.jpg"
+                        ],
+                        "colors": ["#000000", "#FFFFFF"],
+                        "series": "pro",
+                        "reviewsCount": 201
+                    }
+                },
+                {
+                    "id": "tablet-a",
+                    "name": "Tablet A",
+                    "price": 499.99,
+                    "imageUrl": "/images/tablet-a.jpg",
+                    "description": "A versatile tablet for work and play.",
+                    "inStock": true,
+                    "category": "tablets",
+                    "rating": 4.1,
+                    "count": 9,
+                    "createdAt": "2023-08-01T10:00:00.000Z",
+                    "updatedAt": "2023-08-01T10:00:00.000Z",
+                    "additionalInfo": {
+                        "gallery": [
+                            "/images/tablet-a.jpg",
+                            "/gallery/tablet-1.jpg",
+                            "/gallery/tablet-2.jpg"
+                        ],
+                        "colors": ["#000000", "#FFFFFF", "#2B2B2B"],
+                        "series": "basic",
+                        "reviewsCount": 133
+                    }
                 }
-            }
-        ],
-
-        "popular": [
-            {
-                "id": "01",
-                "name": "Titan GPU X-100",
-                "price": 799,
-                "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuC7Nw--5Ten2YrL7AVT8Sr6WSp2copjwTiCmisR6hZJVpzdRonSwaTbFZkCdZ9cf-yTJTjUSkrGV_dhA2GHe4RxArOxKPwyhCKXLkXVnBJucb--rYjjXkhBV8DWlyMlFihXGzbdvkeke-J6fZqOIF9pQXAEyZNUvFyyHd8acdhbgngt6vqZHJC1UPal8BafAyUnXkSvwHgKGEqBmxoKxKM2lQxkq62dKJfduuSgGecPUDZYU9Sr-RZnYm0XFwcpJeIFWNYuos4",
-                "description": "Modern desktop GPU with golden contacts",
-                "inStock": true,
-                "category": "components",
-                "rating": 4.7,
-                "count": 12,
-                "createdAt": "2024-01-01",
-                "updatedAt": "2024-01-01",
-                "additionalInfo": {
-                    "gallery": [
-                        "https://lh3.googleusercontent.com/aida-public/AB6AXuC7Nw--5Ten2YrL7AVT8Sr6WSp2copjwTiCmisR6hZJVpzdRonSwaTbFZkCdZ9cf-yTJTjUSkrGV_dhA2GHe4RxArOxKPwyhCKXLkXVnBJucb--rYjjXkhBV8DWlyMlFihXGzbdvkeke-J6fZqOIF9pQXAEyZNUvFyyHd8acdhbgngt6vqZHJC1UPal8BafAyUnXkSvwHgKGEqBmxoKxKM2lQxkq62dKJfduuSgGecPUDZYU9Sr-RZnYm0XFwcpJeIFWNYuos4",
-                        "/gallery/gpu-x100-1.jpg",
-                        "/gallery/gpu-x100-2.jpg"
-                    ],
-                    "colors": ["#000000", "#FFD700", "#2B2B2B"],
-                    "series": "pro",
-                    "reviewsCount": 214
-                }
-            },
-            {
-                "id": "02",
-                "name": "Pro Book Platinum",
-                "price": 1599,
-                "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBHVGqx80cpXCLasu1ESb8HOO2IK9SGPhKaYwiFsVgTEAbQWauMs6PYZXNGnpQDpZF2nGpsTapghrqrRvje67o2-Y9zA2bohzYiGLDwuhJv-Z5oChJyoHSbukx5RDFUWhM8stF0uQK9u8Ve1iFWq_6jqjQBn0lHsoYO6s_CypfDKVTqCPpvEfIPDkr8VkpgFIFbLXrtK95HLCT5Ihx34Eo4tAjJ5_1nRupGX8BNfzbOoMuL2MmPSIqIrcS6EpWzERyu4HG6OHM",
-                "description": "Ultrathin premium laptop with silver chassis",
-                "inStock": true,
-                "category": "laptops",
-                "rating": 4.8,
-                "count": 7,
-                "createdAt": "2024-01-02",
-                "updatedAt": "2024-01-02",
-                "additionalInfo": {
-                    "gallery": [
-                        "https://lh3.googleusercontent.com/aida-public/AB6AXuBHVGqx80cpXCLasu1ESb8HOO2IK9SGPhKaYwiFsVgTEAbQWauMs6PYZXNGnpQDpZF2nGpsTapghrqrRvje67o2-Y9zA2bohzYiGLDwuhJv-Z5oChJyoHSbukx5RDFUWhM8stF0uQK9u8Ve1iFWq_6jqjQBn0lHsoYO6s_CypfDKVTqCPpvEfIPDkr8VkpgFIFbLXrtK95HLCT5Ihx34Eo4tAjJ5_1nRupGX8BNfzbOoMuL2MmPSIqIrcS6EpWzERyu4HG6OHM",
-                        "/gallery/probook-1.jpg",
-                        "/gallery/probook-2.jpg"
-                    ],
-                    "colors": ["#C0C0C0", "#000000", "#1A1A1A"],
-                    "series": "premium",
-                    "reviewsCount": 312
-                }
-            },
-            {
-                "id": "03",
-                "name": "Vision VR Elite",
-                "price": 549,
-                "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAZanvuW4s-p3qLcZm1tB8L9ezHHM6wDRjN1J-Iaz9eF1SkhSiX7yYhDOujebp186AJHfI2d39-CRmd_3gHIvC3KG4wxyonyXLMRwJl22pOwvjiw8ub8Vn-N57XuwaKu1ySbH33NP_vNqnbDWkioGxUylk_74v9lr0Lkj7kXKGOuCmDHGmQRli4EnENdDv67rlx0Q7LSiOC1trh06usPUwc8D9P_JFyOD-cT8Cl_EOTwMDlx36hFXuLCEl_yP9pvBQT6JEFANc",
-                "description": "Minimalist VR headset with blue glow",
-                "inStock": true,
-                "category": "wearables",
-                "rating": 4.6,
-                "count": 15,
-                "createdAt": "2024-01-03",
-                "updatedAt": "2024-01-03",
-                "additionalInfo": {
-                    "gallery": [
-                        "https://lh3.googleusercontent.com/aida-public/AB6AXuAZanvuW4s-p3qLcZm1tB8L9ezHHM6wDRjN1J-Iaz9eF1SkhSiX7yYhDOujebp186AJHfI2d39-CRmd_3gHIvC3KG4wxyonyXLMRwJl22pOwvjiw8ub8Vn-N57XuwaKu1ySbH33NP_vNqnbDWkioGxUylk_74v9lr0Lkj7kXKGOuCmDHGmQRli4EnENdDv67rlx0Q7LSiOC1trh06usPUwc8D9P_JFyOD-cT8Cl_EOTwMDlx36hFXuLCEl_yP9pvBQT6JEFANc",
-                        "/gallery/vr-elite-1.jpg",
-                        "/gallery/vr-elite-2.jpg"
-                    ],
-                    "colors": ["#1E90FF", "#000000", "#2B2B2B"],
-                    "series": "pro",
-                    "reviewsCount": 189
-                }
-            },
-            {
-                "id": "04",
-                "name": "BoomBox Mini V3",
-                "price": 129,
-                "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDpgY97Nt_tNndXRe6fzBz0sINhGO8VC1Ko4gvs35s38iNryDyroVaM6w_Ew5TOdh2tGCTldWr3k9G8XLBwkgq-xIkaPUwLiOR-UEJ8-0s-BJHfu4E7oDmkrYLpbWjmMLfowU3v8CxLZbAQWFESabzkk53LRQ6bmH8D5wwgwTP6B1hSTrbb19IWkQ_lOVPvDJ8-xa475pYikIwyBz57ESTCU_9OsrDTnac7OGjbM4zPByWWZJlpCwqtRapUL3r-9X3zu-n15P4",
-                "description": "Compact portable bluetooth speaker cylindrical",
-                "inStock": true,
-                "category": "audio",
-                "rating": 4.4,
-                "count": 22,
-                "createdAt": "2024-01-04",
-                "updatedAt": "2024-01-04",
-                "additionalInfo": {
-                    "gallery": [
-                        "https://lh3.googleusercontent.com/aida-public/AB6AXuDpgY97Nt_tNndXRe6fzBz0sINhGO8VC1Ko4gvs35s38iNryDyroVaM6w_Ew5TOdh2tGCTldWr3k9G8XLBwkgq-xIkaPUwLiOR-UEJ8-0s-BJHfu4E7oDmkrYLpbWjmMLfowU3v8CxLZbAQWFESabzkk53LRQ6bmH8D5wwgwTP6B1hSTrbb19IWkQ_lOVPvDJ8-xa475pYikIwyBz57ESTCU_9OsrDTnac7OGjbM4zPByWWZJlpCwqtRapUL3r-9X3zu-n15P4",
-                        "/gallery/boombox-1.jpg",
-                        "/gallery/boombox-2.jpg"
-                    ],
-                    "colors": ["#000000", "#FF0000", "#1A1A1A"],
-                    "series": "basic",
-                    "reviewsCount": 142
-                }
-            },
-            {
-                "id": "1",
-                "name": "Huawei Mate Pro 15",
-                "price": 1999.99,
-                "imageUrl": "/HuaweiMate15Pro.png",
-                "description": "A high-performance laptop for professionals.",
-                "inStock": true,
-                "category": "laptops",
-                "rating": 4.5,
-                "count": 10,
-                "createdAt": "2023-08-01T10:00:00.000Z",
-                "updatedAt": "2023-08-01T10:00:00.000Z",
-                "additionalInfo": {
-                    "gallery": [
-                        "/HuaweiMate15Pro.png",
-                        "/gallery/huawei-1.jpg",
-                        "/gallery/huawei-2.jpg"
-                    ],
-                    "colors": ["#000000", "#C0C0C0", "#1A1A1A"],
-                    "series": "premium",
-                    "reviewsCount": 256
-                }
-            },
-            {
-                "id": "2",
-                "name": "Wireless Earbuds X",
-                "price": 149.99,
-                "imageUrl": "/images/wireless-earbuds-x.jpg",
-                "description": "Wireless earbuds with great sound quality.",
-                "inStock": true,
-                "category": "headphones",
-                "rating": 4.2,
-                "count": 5,
-                "createdAt": "2023-08-01T10:00:00.000Z",
-                "updatedAt": "2023-08-01T10:00:00.000Z",
-                "additionalInfo": {
-                    "gallery": [
-                        "/images/wireless-earbuds-x.jpg",
-                        "/gallery/earbuds-1.jpg",
-                        "/gallery/earbuds-2.jpg"
-                    ],
-                    "colors": ["#FFFFFF", "#000000"],
-                    "series": "basic",
-                    "reviewsCount": 87
-                }
-            },
-            {
-                "id": "3",
-                "name": "Smartphone Z",
-                "price": 799.99,
-                "imageUrl": "/images/smartphone-z.jpg",
-                "description": "A powerful smartphone with advanced features.",
-                "inStock": true,
-                "category": "smartphones",
-                "rating": 4.8,
-                "count": 8,
-                "createdAt": "2023-08-01T10:00:00.000Z",
-                "updatedAt": "2023-08-01T10:00:00.000Z",
-                "additionalInfo": {
-                    "gallery": [
-                        "/images/smartphone-z.jpg",
-                        "/gallery/smartphone-1.jpg",
-                        "/gallery/smartphone-2.jpg"
-                    ],
-                    "colors": ["#000000", "#1E90FF", "#C0C0C0"],
-                    "series": "pro",
-                    "reviewsCount": 421
-                }
-            },
-            {
-                "id": "4",
-                "name": "4K Ultra HD TV",
-                "price": 1199.99,
-                "imageUrl": "/images/4k-ultra-hd-tv.jpg",
-                "description": "A stunning 4K TV with advanced features.",
-                "inStock": true,
-                "category": "tvs",
-                "rating": 4.6,
-                "count": 6,
-                "createdAt": "2023-08-01T10:00:00.000Z",
-                "updatedAt": "2023-08-01T10:00:00.000Z",
-                "additionalInfo": {
-                    "gallery": [
-                        "/images/4k-ultra-hd-tv.jpg",
-                        "/gallery/tv-1.jpg",
-                        "/gallery/tv-2.jpg"
-                    ],
-                    "colors": ["#000000", "#2B2B2B"],
-                    "series": "premium",
-                    "reviewsCount": 198
-                }
-            },
-            {
-                "id": "5",
-                "name": "Smartwatch Y",
-                "price": 299.99,
-                "imageUrl": "/images/smartwatch-y.jpg",
-                "description": "A stylish smartwatch with health tracking features.",
-                "inStock": true,
-                "category": "watches",
-                "rating": 4.3,
-                "count": 12,
-                "createdAt": "2023-08-01T10:00:00.000Z",
-                "updatedAt": "2023-08-01T10:00:00.000Z",
-                "additionalInfo": {
-                    "gallery": [
-                        "/images/smartwatch-y.jpg",
-                        "/gallery/watch-1.jpg",
-                        "/gallery/watch-2.jpg"
-                    ],
-                    "colors": ["#000000", "#FFFFFF", "#1A1A1A"],
-                    "series": "basic",
-                    "reviewsCount": 144
-                }
-            },
-            {
-                "id": "6",
-                "name": "Gaming Laptop G",
-                "price": 2499.99,
-                "imageUrl": "/images/gaming-laptop-g.jpg",
-                "description": "A high-end gaming laptop with powerful graphics.",
-                "inStock": false,
-                "category": "laptops",
-                "rating": 4.7,
-                "count": 0,
-                "createdAt": "2023-08-01T10:00:00.000Z",
-                "updatedAt": "2023-08-01T10:00:00.000Z",
-                "additionalInfo": {
-                    "gallery": [
-                        "/images/gaming-laptop-g.jpg",
-                        "/gallery/gaming-laptop-1.jpg",
-                        "/gallery/gaming-laptop-2.jpg"
-                    ],
-                    "colors": ["#000000", "#FF0000", "#2B2B2B"],
-                    "series": "ultra",
-                    "reviewsCount": 367
-                }
-            },
-            {
-                "id": "7",
-                "name": "Noise-Cancelling Headphones N",
-                "price": 299.99,
-                "imageUrl": "/images/noise-cancelling-headphones-n.jpg",
-                "description": "Headphones with active noise cancellation technology.",
-                "inStock": true,
-                "category": "headphones",
-                "rating": 4.4,
-                "count": 7,
-                "createdAt": "2023-08-01T10:00:00.000Z",
-                "updatedAt": "2023-08-01T10:00:00.000Z",
-                "additionalInfo": {
-                    "gallery": [
-                        "/images/noise-cancelling-headphones-n.jpg",
-                        "/gallery/headphones-1.jpg",
-                        "/gallery/headphones-2.jpg"
-                    ],
-                    "colors": ["#000000", "#FFFFFF"],
-                    "series": "pro",
-                    "reviewsCount": 201
-                }
-            },
-            {
-                "id": "8",
-                "name": "Tablet A",
-                "price": 499.99,
-                "imageUrl": "/images/tablet-a.jpg",
-                "description": "A versatile tablet for work and play.",
-                "inStock": true,
-                "category": "tablets",
-                "rating": 4.1,
-                "count": 9,
-                "createdAt": "2023-08-01T10:00:00.000Z",
-                "updatedAt": "2023-08-01T10:00:00.000Z",
-                "additionalInfo": {
-                    "gallery": [
-                        "/images/tablet-a.jpg",
-                        "/gallery/tablet-1.jpg",
-                        "/gallery/tablet-2.jpg"
-                    ],
-                    "colors": ["#000000", "#FFFFFF", "#2B2B2B"],
-                    "series": "basic",
-                    "reviewsCount": 133
-                }
-            }
-        ]
+            ]
+        }
     }
 ]

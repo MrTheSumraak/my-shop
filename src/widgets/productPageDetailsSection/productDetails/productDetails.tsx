@@ -1,6 +1,7 @@
 "use client";
 
 import { ISalesProducts } from "@/entities/product/api/types";
+import useAddToCart from "@/hooks/useAddToCart";
 import AddToCard from "@/shared/ui/iconComponents/AddToCard";
 import LikeIcon from "@/shared/ui/iconComponents/LikeIcon";
 import TruckIcon from "@/shared/ui/iconComponents/TruckIcon";
@@ -8,7 +9,6 @@ import VerifiedUser from "@/shared/ui/iconComponents/VerifiedUser";
 import Star from "@/shared/ui/star/star";
 import { useDispatch, useSelector } from "@/store/rootReduser";
 import {
-    addProductToBasket,
     selectIsProductInBasket,
 } from "@/store/slices/basketSlices";
 
@@ -17,14 +17,16 @@ interface IProductDetails {
 }
 
 const ProductDetails = ({ product }: IProductDetails) => {
-    const { additionalInfo } = product || {};
+    const { additionalInfo, id } = product || {};
     const { colors } = additionalInfo || {};
     const dispatch = useDispatch();
     const isProductInBasket = useSelector(selectIsProductInBasket(product.id));
-
-    const handleAddToCard = () => {
-        dispatch(addProductToBasket(product));
-    };
+    const { handleAddToCart } = useAddToCart({
+        dispatch,
+        isProduct: isProductInBasket,
+        saleProduct: product,
+        id,
+    });
 
     const colorsArray: string[] = (colors && Object.values(colors)) || [];
     return (
@@ -107,7 +109,7 @@ const ProductDetails = ({ product }: IProductDetails) => {
                     </div>
                 ) : (
                     <button
-                        onClick={handleAddToCard}
+                        onClick={handleAddToCart}
                         className="w-full bg-primary hover:bg-primary/90 text-white h-14 rounded-xl font-bold text-lg transition-all shadow-lg shadow-primary/20 flex items-center justify-center gap-3"
                     >
                         <span className="material-symbols-outlined">

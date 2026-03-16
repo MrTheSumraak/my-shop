@@ -46,7 +46,7 @@ const CategoriesTabs = () => {
                             <Icon className="w-[clamp(0.9rem,1.8vw,2rem)] h-[clamp(0.9rem,1.8vw,2rem)]" />
                         }
                         title={title}
-                        href={`/catalog/${href}`}
+                        href={`/catalog/categories/${href}`}
                     />
                 ))}
             </div>

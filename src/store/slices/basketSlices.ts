@@ -20,6 +20,9 @@ const initialState: IBasketState = {
 const basketSlice = createSlice({
     name: "basketProducts",
     initialState,
+    selectors: {
+        bascketLength: (state) => state.basket.length,
+    },
     reducers: {
         addProductToBasket: (state, action: PayloadAction<ISalesProducts>) => {
             state.basket.push(action.payload);
@@ -91,3 +94,5 @@ export const {
     incrementProduct,
     decrementProduct,
 } = basketSlice.actions;
+
+export const { bascketLength } = basketSlice.selectors;

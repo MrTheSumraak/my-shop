@@ -22,7 +22,7 @@ const getUnique = (arr: (string | undefined)[]) =>
     [...new Set(arr.filter(Boolean))] as string[];
 
 // Функция-хелпер для построения конфигурации фильтров путем анализа товаров
-export const buildFiltersByCategory = (category: string, items: any[]) => {
+export const buildFiltersByCategory = (items: any[]) => {
     if (!items.length) return [];
 
     const prices = items.map((i) => i.price);

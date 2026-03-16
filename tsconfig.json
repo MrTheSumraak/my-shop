@@ -26,7 +26,8 @@
             "@/shared/*": ["./src/shared/*"],
             "@/pages/*": ["./src/pages/*"],
             "@/app/*": ["./src/app/*"],
-            "@/store/*": ["./src/store/*"]
+            "@/store/*": ["./src/store/*"],
+            "@/models/*": ["./src/models/*"]
         }
     },
     "include": [
@@ -34,7 +35,11 @@
         "**/*.ts",
         "**/*.tsx",
         ".next/types/**/*.ts",
-        ".next/dev/types/**/*.ts"
-, "src/widgets/basketPage/productList", "src/lib/renderIcon.tsч", "src/widgets/homePageSection/trustBar/trustBarItem", "src/app/api/productsAll"    ],
+        ".next/dev/types/**/*.ts",
+        "src/widgets/basketPage/productList",
+        "src/lib/renderIcon.tsч",
+        "src/widgets/homePageSection/trustBar/trustBarItem",
+        "src/app/api/productsAll"
+, "src/hooks/useGetProductsPaginationCategory.tss", "src/app/api/allProducts"    ],
     "exclude": ["node_modules"]
 }

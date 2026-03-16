@@ -24,9 +24,12 @@ const BasketProductItem = ({ product }: IBasketProductItem) => {
         inStock,
         countInBasket,
         technicalSpecifications,
+        count,
     } = product;
     const dispatch = useDispatch();
     const totalPriceProduct = price * (countInBasket || 0);
+    const isCountOne = countInBasket === 1;
+    const isCountMax = count === countInBasket;
 
     const handleDeleteProduct = () => {
         dispatch(deleteProductFromBasket(id));
@@ -58,7 +61,6 @@ const BasketProductItem = ({ product }: IBasketProductItem) => {
                         {name}
                     </h3>
                     <p className="text-slate-500 dark:text-slate-400 text-sm mt-1">
-                        {/* Matte Black | 7.1 Surround | 40h Battery */}
                         {Object.values(technicalSpecifications || {})
                             .slice(0, 3)
                             .map((value, index) => (
@@ -71,7 +73,9 @@ const BasketProductItem = ({ product }: IBasketProductItem) => {
                     <div className="flex items-center bg-slate-100 dark:bg-slate-800 rounded-lg p-1">
                         <button
                             onClick={handleRemoveProduct}
-                            className="w-8 h-8 flex items-center justify-center hover:text-primary transition-colors"
+                            className={`w-8 h-8 flex items-center justify-center hover:text-primary transition-colors
+                            ${isCountOne ? "pointer-events-none opacity-50" : ""}
+                            `}
                         >
                             <span className="material-symbols-outlined text-sm font-bold">
                                 <RemoveIcon />
@@ -82,7 +86,8 @@ const BasketProductItem = ({ product }: IBasketProductItem) => {
                         </span>
                         <button
                             onClick={handleAddProduct}
-                            className="w-8 h-8 flex items-center justify-center hover:text-primary transition-colors"
+                            className={`w-8 h-8 flex items-center justify-center hover:text-primary transition-colors
+                            ${isCountMax ? "pointer-events-none opacity-50" : ""}`}
                         >
                             <span className="material-symbols-outlined text-sm font-bold">
                                 <AddIcon />

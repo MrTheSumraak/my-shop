@@ -75,10 +75,10 @@ const useFilteredProducts = (
             // 6. Brand
             const brandPass = matchExact(item.brand, filters.brand);
 
-            // 7. Display (безопасно)
+            // 7. Display 
             const displayPass = matchArray(specs.Display, filters.display);
 
-            // 8. Colors (безопасно)
+            // 8. Colors 
             const colorPass =
                 filters.colors.length === 0 ||
                 filters.colors.some((selectedColor) =>

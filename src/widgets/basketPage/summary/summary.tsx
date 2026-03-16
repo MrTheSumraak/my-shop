@@ -6,15 +6,20 @@ import CreditCardIcon from "@/shared/ui/iconComponents/CreditCardIcon";
 import PaymentsIcon from "@/shared/ui/iconComponents/PaymentsIcon";
 import TrendingFlat from "@/shared/ui/iconComponents/TrendingFlat";
 import VerifiedUser from "@/shared/ui/iconComponents/VerifiedUser";
+import PaymentModal from "@/shared/ui/modalWindowUI/PaymentModal";
 import { useSelector } from "@/store/rootReduser";
-import { selectTotalPrice } from "@/store/slices/basketSlices";
+import { selectBasket, selectTotalPrice } from "@/store/slices/basketSlices";
 import PromoCode from "@/widgets/promo-code/promoCode";
+import { useState } from "react";
 
 const iconArray = [AccountBalanceWalletIcon, CreditCardIcon, PaymentsIcon];
 
 const Summary = () => {
+    const [isPaymentModalOpen, setIsPaymentModalOpen] = useState(false);
+    const allProducts = useSelector(selectBasket);
     const totalPrice = useSelector(selectTotalPrice);
-
+    const taxAmount = Math.floor(totalPrice * 0.13);
+    const finalPrice = totalPrice + taxAmount;
     return (
         <>
             <div className="lg:w-[380px] shrink-0">
@@ -25,7 +30,7 @@ const Summary = () => {
                         <div className="flex justify-between">
                             <span>Subtotal</span>
                             <span className="text-slate-900 dark:text-white">
-                                $457.99
+                                ${totalPrice}
                             </span>
                         </div>
 
@@ -39,7 +44,7 @@ const Summary = () => {
                         <div className="flex justify-between">
                             <span>Tax (Calculated at checkout)</span>
                             <span className="text-slate-900 dark:text-white">
-                                $36.64
+                                ${taxAmount} (13%)
                             </span>
                         </div>
                     </div>
@@ -52,12 +57,20 @@ const Summary = () => {
                                 Grand Total
                             </p>
                             <p className="text-3xl font-bold tracking-tight">
-                                ${totalPrice}
+                                ${finalPrice}
                             </p>
                         </div>
                     </div>
 
-                    <button className="w-full bg-accent-green hover:bg-[#00e68d] text-[#0b0b0b] font-black py-4 rounded-xl text-lg uppercase tracking-tight flex items-center justify-center gap-2 transition-all active:scale-[0.98]">
+                    <button
+                        onClick={() => setIsPaymentModalOpen(true)}
+                        className={`w-full bg-accent-green hover:bg-[#00e68d] text-[#0b0b0b] font-black py-4 rounded-xl text-lg uppercase tracking-tight flex items-center justify-center gap-2 transition-all active:scale-[0.98]
+                            ${
+                                !allProducts.length
+                                    ? "pointer-events-none opacity-40"
+                                    : ""
+                            }`}
+                    >
                         Proceed to Checkout
                         <span className="material-symbols-outlined font-bold">
                             <TrendingFlat />
@@ -85,6 +98,15 @@ const Summary = () => {
                         </div>
                     </div>
                 </div>
+
+                {isPaymentModalOpen && (
+                    <PaymentModal
+                        onClose={() => setIsPaymentModalOpen(false)}
+                        items={allProducts}
+                        subtotal={totalPrice}
+                        tax={taxAmount}
+                    />
+                )}
             </div>
         </>
     );

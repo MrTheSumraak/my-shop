@@ -18,13 +18,11 @@ export default function ProductPageClient({ id }: IProductPageProps) {
         isLoading,
         error,
     } = useProductById(id!, SALES_URL);
-
+    if (isLoading) return <Loader />;
     if (error) return <div>Error: {error.message}</div>;
     if (!selectedProduct) return <div>Product not found</div>;
 
-    return isLoading ? (
-        <Loader />
-    ) : (
+    return (
         <section className="max-w-[1280px] mx-auto px-4 lg:px-20 py-8">
             <ProductInfo selectedProduct={selectedProduct} />
             <TechnicalSpecifications selectedProduct={selectedProduct} />

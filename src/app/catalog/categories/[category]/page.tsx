@@ -1,8 +1,8 @@
-import ProductCatalog from "@/widgets/productCatalog/productCatalog";
+import ProductCatalogCategory from "@/widgets/productCatalog/productCatalogCategory";
 
 const CatalogPage = async ({ params }: { params: { category: string } }) => {
     const { category } = await params;
-    return <ProductCatalog category={category} />;
+    return <ProductCatalogCategory category={category} />;
 };
 
 export default CatalogPage;

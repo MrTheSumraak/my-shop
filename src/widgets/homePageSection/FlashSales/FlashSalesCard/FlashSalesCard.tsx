@@ -1,13 +1,10 @@
 "use client";
 
 import { ISalesProducts } from "@/entities/product/api/types";
-import useProductById from "@/shared/api/useProductById";
+import useAddToCart from "@/hooks/useAddToCart";
+import ModalWindowUI from "@/shared/ui/modalWindowUI/modalWindowUI";
 import { useDispatch, useSelector } from "@/store/rootReduser";
-import {
-    addProductToBasket,
-    incrementProduct,
-    selectIsProductInBasket,
-} from "@/store/slices/basketSlices";
+import { selectIsProductInBasket } from "@/store/slices/basketSlices";
 import Link from "next/link";
 
 interface FlashSalesCardProps {
@@ -26,18 +23,16 @@ const FlashSalesCard = ({ saleProduct }: FlashSalesCardProps) => {
     } = saleProduct;
     const dispatch = useDispatch();
     const isProduct = useSelector(selectIsProductInBasket(id));
+    const { handleAddToCart, isModalOpen, setIsModalOpen } = useAddToCart({
+        dispatch,
+        isProduct,
+        saleProduct,
+        id,
+    });
 
-    const handleAddToCart = (e: React.MouseEvent<HTMLButtonElement>) => {
-        e.preventDefault();
-        if (isProduct) {
-            alert("Товар уже в корзине");
-            return;
-        }
-
-        dispatch(addProductToBasket(saleProduct));
-        dispatch(incrementProduct(id));
-        alert("Товар добавлен в корзину");
-    };
+    if (isModalOpen) {
+        return <ModalWindowUI text="The product has been successfully added to your cart." title="Product Added" onClose={() => setIsModalOpen(false)} />;
+    }
 
     return (
         <Link

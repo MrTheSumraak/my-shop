@@ -10,8 +10,7 @@ interface IPagination {
 }
 
 const Pagination = ({ page, totalPages, onChange }: IPagination) => {
-    console.log(page, totalPages);
-    const isActiePage = (index: number) => index + 1 === page;
+    const isActivePage = (index: number) => index + 1 === page;
     return (
         <div className="mt-12 flex items-center justify-center gap-2">
             <button
@@ -28,7 +27,7 @@ const Pagination = ({ page, totalPages, onChange }: IPagination) => {
                     key={i}
                     onClick={() => onChange(i + 1)}
                     className={`size-10 flex items-center justify-center rounded-lg border transition-colors
-                    ${isActiePage(i) ? "border-primary text-primary" : "border-white/10 hover:border-primary"}`}
+                    ${isActivePage(i) ? "border-primary text-primary" : "border-white/10 hover:border-primary"}`}
                 >
                     {i + 1}
                 </button>

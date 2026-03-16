@@ -1,6 +1,12 @@
 import { ISalesProducts } from "@/entities/product/api/types";
 
+type TRequest = {
+    salesEnd: string,
+    items: ISalesProducts[];
+};
+
 export interface ISaleProducts {
-    saeleProducts: ISalesProducts[];
+    request: TRequest;
     loading: boolean;
+    error: Error | null;
 }

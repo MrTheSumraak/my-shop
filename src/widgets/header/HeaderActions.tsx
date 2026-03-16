@@ -1,8 +1,8 @@
-import BasketIcon from "@/shared/ui/iconComponents/BasketIcon";
 import BoltIcon from "@/shared/ui/iconComponents/Bolt";
 import LikeIcon from "@/shared/ui/iconComponents/LikeIcon";
 import Link from "next/link";
 import Search from "./HeaderSearch";
+import BasketIconUI from "../basket-icon-ui/basketIconUI";
 
 const LINK_CONTENT = [
     {
@@ -60,7 +60,7 @@ const HeaderUI = () => {
                 </div>
 
                 <div className="flex flex-1 justify-end items-center gap-6">
-                    <Search />
+                    {/* <Search /> */}
 
                     <div className="flex items-center gap-3">
                         <button className="p-2 hover:bg-gray-100 dark:hover:bg-card-dark rounded-lg transition-colors">
@@ -69,15 +69,7 @@ const HeaderUI = () => {
                             </span>
                         </button>
 
-                        <Link
-                            href="/basket"
-                            className="p-2 hover:bg-gray-100 dark:hover:bg-card-dark rounded-lg transition-colors relative"
-                        >
-                            <span className="material-symbols-outlined">
-                                <BasketIcon />
-                            </span>
-                            <span className="absolute top-1 right-1 size-2 bg-secondary rounded-full"></span>
-                        </Link>
+                        <BasketIconUI />
 
                         <div className="size-9 rounded-full bg-primary/20 border border-primary/30 flex items-center justify-center overflow-hidden">
                             <img

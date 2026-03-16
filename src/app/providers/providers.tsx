@@ -8,7 +8,6 @@ import { useState } from "react";
 
 export default function Providers({ children }: ILayoutProps) {
     const [queryClient] = useState(() => new QueryClient());
-
     return (
         <QueryClientProvider client={queryClient}>
             <NextThemesProvider attribute="class" defaultTheme="dark">

@@ -18,21 +18,24 @@ const useProducts = (url: string, category?: string) => {
                 throw new Error("Failed to fetch products");
             }
 
-            switch (true) {
-                case Array.isArray(data):
-                    return data;
-                case typeof data === "object":
-                    return category
-                        ? (data[category] ?? [])
-                        : Object.values(data).flat();
-                default:
-                    throw new Error("Unexpected data format");
-            }
+            return data;
+
+            // switch (true) {
+            //     case Array.isArray(data):
+            //         return data;
+            //     case typeof data === "object":
+            //         return category
+            //             ? (data[category] ?? [])
+            //             : Object.values(data).flat();
+            //     default:
+            //         throw new Error("Unexpected data format");
+            // }
         },
-        // // если есть кэш — используем его как initialData
-        // initialData: () =>
-        //     queryClient.getQueryData<IProduct[]>(["products", url]),
-        // staleTime: 1000 * 60 * 5, // 5 minutes
+        staleTime: 10 * 60 * 1000, // 10 минут
+        gcTime: 10 * 60 * 1000, // 10 минут
+        // если есть кэш — используем его как initialData
+        initialData: () =>
+            queryClient.getQueryData<IProduct[]>(["products", url]),
     });
 };
 

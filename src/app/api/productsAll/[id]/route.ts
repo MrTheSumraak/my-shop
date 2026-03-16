@@ -9,7 +9,7 @@ export async function GET(
     const { id } = await context.params;
     const db = await connect();
     const doc = await db.collection("products").findOne({}); // {categories: {laptops: [...], phones: [...]}, flashSales: [...{}], popular: [...{}]}
-    console.log("DOC :", doc);
+    // console.log("DOC :", doc);
     if (!doc || !doc.categories) {
         return NextResponse.json(
             { error: "No products found" },
@@ -19,8 +19,8 @@ export async function GET(
 
     // Собираем все товары в один массив
     const productsCatagory = Object.values(doc.categories).flat();
-    const flashSales = doc.flashSales ?? [];
-    const popular = doc.popular ?? [];
+    const flashSales = doc?.collection?.flashSales?.products ?? [];
+    const popular = doc?.collection?.popular ?? [];
 
     const allProducts = [...productsCatagory, ...flashSales, ...popular];
 

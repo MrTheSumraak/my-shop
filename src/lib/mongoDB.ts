@@ -1,14 +1,30 @@
-import { MongoClient } from "mongodb";
+import mongoose from "mongoose";
 
-const uri = process.env.MONGODB_URI!;
-const client = new MongoClient(uri);
-
-let db: any = null;
+let isConnected = false;
 
 export async function connect() {
-  if (!db) {
-    await client.connect();
-    db = client.db("Cluster0"); // имя твоей базы
-  }
-  return db;
+    if (isConnected) return mongoose.connection;
+
+    if (!process.env.MONGODB_URI) {
+        throw new Error("MONGODB_URI is missing");
+    }
+
+    if (mongoose.connection.readyState === 1) {
+        isConnected = true;
+        return mongoose.connection;
+    }
+
+    try {
+        await mongoose.connect(process.env.MONGODB_URI, {
+            dbName: "Cluster0",
+        });
+
+        isConnected = true;
+        console.log("MongoDB connected");
+
+        return mongoose.connection;
+    } catch (err) {
+        console.error("MongoDB connection error:", err);
+        throw err;
+    }
 }

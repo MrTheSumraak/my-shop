@@ -2,9 +2,12 @@ import NavLink from "@/shared/ui/navLink/navLink";
 import { IPopularSectionCard } from "./types";
 
 const PopularSectionCard = ({ item }: IPopularSectionCard) => {
-    const { imageUrl, category, name, price } = item;
+    const { imageUrl, category, name, price, id } = item;
     return (
-        <NavLink href="#" className="flex flex-col gap-3 group cursor-pointer">
+        <NavLink
+            href={`/product/${id}`}
+            className="flex flex-col gap-3 group cursor-pointer"
+        >
             <img
                 className="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl bg-gray-200 dark:bg-background-dark border border-transparent group-hover:border-primary transition-all duration-300"
                 data-alt="Modern desktop CPU with golden contacts"
